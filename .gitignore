@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Editor
+.vscode/
+
+# Logfiles
+*.log
+
+# Tests
+coverage/

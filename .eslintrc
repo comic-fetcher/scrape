@@ -1,0 +1,68 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "eslint-config-airbnb-base",
+    // plugin
+    "plugin:eslint-comments/recommended",
+    "plugin:promise/recommended",
+    "plugin:import/recommended",
+    // prettier
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "class-methods-use-this": 0,
+    // import
+    "import/prefer-default-export": [0],
+    "import/order": [
+      2,
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "import/extensions": [
+      1,
+      {
+        "js": "never",
+        "json": "always"
+      }
+    ],
+    // eslint-comment
+    "eslint-comments/disable-enable-pair": [
+      2,
+      {
+        "allowWholeFile": true
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "extends": [
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/typescript",
+        "prettier/@typescript-eslint"
+      ],
+      "parserOptions": {
+        "warnOnUnsupportedTypeScriptVersion": true
+      },
+      "settings": {
+        "import/resolver": {
+          "typescript": {
+            "alwaysTryTypes": true
+          }
+        }
+      }
+    },
+    {
+      "files": ["**/*.test.(j|t)s"],
+      "extends": ["plugin:jest/recommended"]
+    }
+  ]
+}

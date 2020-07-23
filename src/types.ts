@@ -1,4 +1,13 @@
-export type ComicReleaseData<DetailObject> = [
+export type RequiredDetail = {
+  title: string;
+  link: string;
+  platform: "ComicWalker";
+};
+
+export type ComicReleaseData = [
   string,
-  { date: Date; detail: DetailObject },
+  {
+    date: Date;
+    detail: RequiredDetail;
+  },
 ];

@@ -22,6 +22,7 @@ test("Create release", () => {
         title: "東方酔蝶華　 ロータスイーター達の酔醒",
         link:
           "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+        platform: "ComicWalker",
       },
     },
   ]);
@@ -36,6 +37,7 @@ test("Concat releases", () => {
         title: "東方酔蝶華　 ロータスイーター達の酔醒",
         link:
           "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+        platform: "ComicWalker",
       },
     },
   ];
@@ -48,6 +50,7 @@ test("Concat releases", () => {
         title: "人間たちの幻想郷",
         link:
           "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
+        platform: "ComicWalker",
       },
     },
   ];
@@ -83,6 +86,7 @@ describe("Parsing", () => {
             title: "東方酔蝶華　 ロータスイーター達の酔醒",
             link:
               "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+            platform: "ComicWalker",
           },
         },
       ],
@@ -117,6 +121,7 @@ describe("Parsing", () => {
             title: "東方酔蝶華　 ロータスイーター達の酔醒",
             link:
               "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+            platform: "ComicWalker",
           },
         },
       ],
@@ -128,6 +133,7 @@ describe("Parsing", () => {
             title: "人間たちの幻想郷",
             link:
               "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
+            platform: "ComicWalker",
           },
         },
       ],

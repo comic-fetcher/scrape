@@ -1,13 +1,20 @@
-import { ComicReleaseData } from "../types";
+import { ComicReleaseData, RequiredDetail } from "../types";
 
 import { parseMonthAndDate, separateStringToMonthAndDate } from "./date";
 import { uncertain } from "./uncertain";
 import { combineLinkAndId } from "./utils";
 
-export type ComicWalkerComicReleaseData = ComicReleaseData<{
-  title: string;
-  link: string;
-}>;
+export type ComicWalkerComicReleaseData = [
+  string,
+  {
+    date: Date;
+    detail: {
+      title: string;
+      link: string;
+      platform: "ComicWalker";
+    };
+  },
+];
 
 export function createRelease(
   title: string,
@@ -19,7 +26,11 @@ export function createRelease(
     id,
     {
       date,
-      detail: { link, title },
+      detail: {
+        link,
+        title,
+        platform: "ComicWalker",
+      },
     },
   ];
 }

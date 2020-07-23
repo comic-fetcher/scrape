@@ -5,7 +5,9 @@
     "target": "es2016",
     "jsx": "preserve",
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "exclude": ["node_modules", "**/node_modules/*"]
 }

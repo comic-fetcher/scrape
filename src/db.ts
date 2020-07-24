@@ -25,8 +25,9 @@ export function proceedDetails(data: ComicReleaseData[]) {
 }
 
 export function extractRelease(data: ComicReleaseData[]) {
-  return data.map(([id, { date }]) => ({
-    comic: { id },
+  return data.map(([comicId, { date }]) => ({
+    id: `${comicId}_${date.getTime()}`,
+    comic: { id: comicId },
     date,
   }));
 }
@@ -41,19 +42,19 @@ export async function sendDB(data: ComicReleaseData[]): Promise<void> {
     .createQueryBuilder()
     .insert()
     .into(Comic)
-    .values(details)
     .orUpdate({
       conflict_target: ["id"],
       overwrite: ["title", "link", "platform"],
     })
+    .values(details)
     .execute();
 
   await connection
     .createQueryBuilder()
     .insert()
     .into(Release)
-    .values(releases)
     .orIgnore(true)
+    .values(releases)
     .execute();
 
   await connection.close();

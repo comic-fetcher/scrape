@@ -1,10 +1,16 @@
-import { Entity, ManyToOne, PrimaryGeneratedColumn, Column } from "typeorm";
+import {
+  Entity,
+  ManyToOne,
+  PrimaryGeneratedColumn,
+  Column,
+  PrimaryColumn,
+} from "typeorm";
 
 import { Comic } from "./comic";
 
 @Entity()
 export class Release {
-  @PrimaryGeneratedColumn("uuid")
+  @PrimaryColumn()
   id!: string;
 
   @ManyToOne((type) => Comic, (comic) => comic.releases)

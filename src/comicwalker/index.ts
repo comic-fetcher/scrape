@@ -1,7 +1,7 @@
 import { ComicReleaseData, RequiredDetail } from "../types";
 
 import { parseMonthAndDate, separateStringToMonthAndDate } from "./date";
-import { uncertain } from "./uncertain";
+import { uncertain } from "./dom";
 import { combineLinkAndId } from "./utils";
 
 export type ComicWalkerComicReleaseData = [

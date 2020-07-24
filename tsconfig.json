@@ -5,6 +5,7 @@
     "target": "es2016",
     "jsx": "preserve",
     "sourceMap": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true

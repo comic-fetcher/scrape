@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
     "test": "jest",
     "lint": "run-s -cn lint:*",
     "lint:eslint": "eslint . --ext .js,.ts",

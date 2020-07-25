@@ -12,3 +12,8 @@ coverage/
 
 # Docker Volumes
 volumes/
+
+# Environment Variables
+.env*
+.env
+!.env.example

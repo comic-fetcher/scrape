@@ -1,4 +1,9 @@
-import { parseMonthAndDate, separateStringToMonthAndDate } from "./date";
+import {
+  parseMonthAndDate,
+  separateStringToMonthAndDate,
+  getDayFromJapanese,
+  estimate,
+} from "./date";
 
 describe("Separate", () => {
   test("Illigal format", () => {
@@ -63,5 +68,43 @@ describe("Date parsing", () => {
     const parsed = parseMonthAndDate(now, 6, 1);
 
     expect(parsed.getFullYear()).toBe(2020);
+  });
+});
+
+describe("Get day from Japanese", () => {
+  test("日 must be 0", () => {
+    expect(getDayFromJapanese("日")).toBe(0);
+  });
+  test("月 must be 1", () => {
+    expect(getDayFromJapanese("月")).toBe(1);
+  });
+  test("火 must be 2", () => {
+    expect(getDayFromJapanese("火")).toBe(2);
+  });
+  test("水 must be 3", () => {
+    expect(getDayFromJapanese("水")).toBe(3);
+  });
+  test("木 must be 4", () => {
+    expect(getDayFromJapanese("木")).toBe(4);
+  });
+  test("金 must be 5", () => {
+    expect(getDayFromJapanese("金")).toBe(5);
+  });
+  test("土 must be 6", () => {
+    expect(getDayFromJapanese("土")).toBe(6);
+  });
+  test("Illegal", () => {
+    expect(() => {
+      getDayFromJapanese("冥");
+    }).toThrow();
+  });
+});
+
+describe("Estimate date", () => {
+  test("2020/07/27(Mon)", () => {
+    expect(estimate(2020, 6, 27, 1)).toEqual(new Date(2020, 6, 27));
+  });
+  test("2021/07/27(Tue)", () => {
+    expect(estimate(2020, 6, 27, 2)).toEqual(new Date(2021, 6, 27));
   });
 });

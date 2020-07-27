@@ -1,6 +1,9 @@
-import { ComicReleaseData, RequiredDetail } from "../types";
-
-import { parseMonthAndDate, separateStringToMonthAndDate } from "./date";
+import {
+  estimate,
+  getDayFromJapanese,
+  parseMonthAndDate,
+  separateStringToMonthAndDate,
+} from "./date";
 import { uncertain } from "./dom";
 import { combineLinkAndId } from "./utils";
 
@@ -53,12 +56,25 @@ export function parse(
   );
   return releases;
 }
+export function parse2(
+  dateString: string,
+  weekString: string,
+  contents: { title: string; href: string }[],
+  startYear: number,
+): ComicWalkerComicReleaseData[] {
+  const { month, day } = separateStringToMonthAndDate(dateString);
+  const date = estimate(startYear, month, day, getDayFromJapanese(weekString));
+  const releases = contents.map(({ title, href }) =>
+    createRelease(title, href, date),
+  );
+  return releases;
+}
 
 export async function fetchComics(): Promise<ComicWalkerComicReleaseData[]> {
   const uncertains = await uncertain();
-  const now = new Date();
-  const releasesMappings = uncertains.map(({ date, contents }) =>
-    parse(date, contents, now),
+  const startYear = new Date().getFullYear();
+  const releasesMappings = uncertains.map(({ date, contents, week }) =>
+    parse2(date, week, contents, startYear),
   );
   return concatReleases(releasesMappings);
 }

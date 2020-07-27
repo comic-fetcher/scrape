@@ -3,6 +3,7 @@ import {
   concatReleases,
   ComicWalkerComicReleaseData,
   parse,
+  parse2,
 } from ".";
 
 test("Create release", () => {
@@ -129,6 +130,116 @@ describe("Parsing", () => {
         "KDCW_AM21201313010000_68",
         {
           date: new Date(2020, 6, 26),
+          detail: {
+            title: "人間たちの幻想郷",
+            link:
+              "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
+            platform: "ComicWalker",
+          },
+        },
+      ],
+    ]);
+  });
+});
+
+describe("Parsing 2", () => {
+  test("今年の一つの更新", () => {
+    const date = new Date(2020, 6, 26);
+    expect(
+      parse2(
+        "07/26",
+        "日",
+        [
+          {
+            title: "東方酔蝶華　 ロータスイーター達の酔醒",
+            href:
+              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+          },
+        ],
+        2020,
+      ),
+    ).toEqual([
+      [
+        "KDCW_KS04201360010000_68",
+        {
+          date,
+          detail: {
+            title: "東方酔蝶華　 ロータスイーター達の酔醒",
+            link:
+              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+            platform: "ComicWalker",
+          },
+        },
+      ],
+    ]);
+  });
+  test("来年の更新", () => {
+    const date = new Date(2021, 0, 1);
+    expect(
+      parse2(
+        "01/01",
+        "金",
+        [
+          {
+            title: "東方酔蝶華　 ロータスイーター達の酔醒",
+            href:
+              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+          },
+        ],
+        2020,
+      ),
+    ).toEqual([
+      [
+        "KDCW_KS04201360010000_68",
+        {
+          date,
+          detail: {
+            title: "東方酔蝶華　 ロータスイーター達の酔醒",
+            link:
+              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+            platform: "ComicWalker",
+          },
+        },
+      ],
+    ]);
+  });
+  test("今年の複数の更新", () => {
+    const date = new Date(2020, 6, 26);
+    expect(
+      parse2(
+        "07/26",
+        "日",
+        [
+          {
+            title: "東方酔蝶華　 ロータスイーター達の酔醒",
+            href:
+              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+          },
+          {
+            title: "人間たちの幻想郷",
+            href:
+              "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
+          },
+        ],
+        2020,
+      ),
+    ).toEqual([
+      [
+        "KDCW_KS04201360010000_68",
+        {
+          date,
+          detail: {
+            title: "東方酔蝶華　 ロータスイーター達の酔醒",
+            link:
+              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+            platform: "ComicWalker",
+          },
+        },
+      ],
+      [
+        "KDCW_AM21201313010000_68",
+        {
+          date,
           detail: {
             title: "人間たちの幻想郷",
             link:

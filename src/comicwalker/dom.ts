@@ -32,6 +32,10 @@ export function fetchFromCalendarDay($tr: Element): string {
   return $tr.querySelector(".calenderDay").textContent;
 }
 
+export function fetchFromCalenderWeek($tr: Element): string {
+  return $tr.querySelector(".calenderWeek").textContent;
+}
+
 export function fetchFromCalendarContents(
   $tr: Element,
 ): { title: string; href: string }[] {
@@ -46,6 +50,7 @@ export function fetchFromCalendarContents(
 export async function uncertain() {
   return (await getTableRows()).map(($tr) => ({
     date: fetchFromCalendarDay($tr),
+    week: fetchFromCalenderWeek($tr),
     contents: fetchFromCalendarContents($tr),
   }));
 }

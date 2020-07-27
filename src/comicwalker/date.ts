@@ -1,4 +1,4 @@
-import { isBefore, getDay } from "date-fns";
+import { isBefore } from "date-fns";
 
 export function separateStringToMonthAndDate(
   text: string,
@@ -14,15 +14,6 @@ export function separateStringToMonthAndDate(
     month: Number(month) - 1,
     day: Number(day),
   };
-}
-
-export function parseMonthAndDate(now: Date, month: number, day: number): Date {
-  const nowYear = now.getFullYear();
-  const estimatedYear = new Date(nowYear, month, day);
-
-  return isBefore(estimatedYear, now)
-    ? new Date(nowYear + 1, month, day)
-    : estimatedYear;
 }
 
 export function getDayFromJapanese(ja: string): 0 | 1 | 2 | 3 | 4 | 5 | 6 {

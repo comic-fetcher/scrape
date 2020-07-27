@@ -1,8 +1,7 @@
 import {
-  parseMonthAndDate,
-  separateStringToMonthAndDate,
-  getDayFromJapanese,
   estimate,
+  getDayFromJapanese,
+  separateStringToMonthAndDate,
 } from "./date";
 
 describe("Separate", () => {
@@ -42,32 +41,6 @@ describe("Separate", () => {
       month: 9,
       day: 1,
     });
-  });
-});
-
-describe("Date parsing", () => {
-  test("Given month and day are after", () => {
-    const now = new Date(2020, 6, 1);
-
-    const parsed = parseMonthAndDate(now, 7, 1);
-
-    expect(parsed.getFullYear()).toBe(2020);
-  });
-
-  test("Given month and day are before", () => {
-    const now = new Date(2020, 6, 1);
-
-    const parsed = parseMonthAndDate(now, 5, 1);
-
-    expect(parsed.getFullYear()).toBe(2021);
-  });
-
-  test("Given month and day are same", () => {
-    const now = new Date(2020, 6, 1);
-
-    const parsed = parseMonthAndDate(now, 6, 1);
-
-    expect(parsed.getFullYear()).toBe(2020);
   });
 });
 

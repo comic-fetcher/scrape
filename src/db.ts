@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import { createConnection } from "typeorm";
+import { Connection, createConnection, InsertQueryBuilder } from "typeorm";
 
 import { Comic, ComicPlatform } from "./typeorm/entities/comic";
 import { Release } from "./typeorm/entities/release";
@@ -16,28 +16,38 @@ export function getPlatformEnum(
   }
 }
 
-export function proceedDetails(data: ComicReleaseData[]) {
-  return data.map(([id, { detail }]) => ({
+export function extractComic([id, { detail }]: ComicReleaseData) {
+  return {
     id,
     ...detail,
     platform: getPlatformEnum(detail.platform),
-  }));
+  };
 }
 
-export function extractRelease(data: ComicReleaseData[]) {
-  return data.map(([comicId, { date }]) => ({
-    id: `${comicId}_${date.getTime()}`,
-    comic: { id: comicId },
+export function extractComics(
+  data: ComicReleaseData[],
+): ReturnType<typeof extractComic>[] {
+  return data.map((d) => extractComic(d));
+}
+
+export function extractRelease([id, { date }]: ComicReleaseData) {
+  return {
+    id: `${id}_${date.getTime()}`,
+    comic: { id },
     date,
-  }));
+  };
 }
 
-export async function sendDB(data: ComicReleaseData[]): Promise<void> {
-  const details = proceedDetails(data);
-  const releases = extractRelease(data);
+export function extractReleases(
+  data: ComicReleaseData[],
+): ReturnType<typeof extractRelease>[] {
+  return data.map((d) => extractRelease(d));
+}
 
-  const connection = await createConnection();
-
+export async function storeComics(
+  connection: Connection,
+  comics: Parameters<InsertQueryBuilder<Comic>["values"]>[0],
+): Promise<void> {
   await connection
     .createQueryBuilder()
     .insert()
@@ -46,16 +56,31 @@ export async function sendDB(data: ComicReleaseData[]): Promise<void> {
       conflict_target: ["id"],
       overwrite: ["title", "link", "platform"],
     })
-    .values(details)
+    .values(comics)
     .execute();
+}
 
-  await connection
+export async function storeReleases(
+  connection: Connection,
+  releases: Parameters<InsertQueryBuilder<Release>["values"]>[0],
+): Promise<void> {
+  connection
     .createQueryBuilder()
     .insert()
     .into(Release)
     .orIgnore(true)
     .values(releases)
     .execute();
+}
+
+export async function sendDB(data: ComicReleaseData[]): Promise<void> {
+  const connection = await createConnection();
+
+  const comics = extractComics(data);
+  const releases = extractReleases(data);
+
+  await storeComics(connection, comics);
+  await storeReleases(connection, releases);
 
   await connection.close();
 }

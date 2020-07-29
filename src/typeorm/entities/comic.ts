@@ -24,5 +24,5 @@ export class Comic {
   platform!: ComicPlatform;
 
   @OneToMany((type) => Release, (release) => release.comic)
-  releases!: Release;
+  releases!: Release[];
 }

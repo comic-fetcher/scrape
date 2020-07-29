@@ -61,8 +61,22 @@
       }
     },
     {
-      "files": ["**/*.test.(j|t)s"],
-      "extends": ["plugin:jest/recommended"]
+      "files": ["**/*.test.ts", "**/*.test.js"],
+      "extends": ["plugin:jest/recommended"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          2,
+          {
+            "devDependencies": true
+          }
+        ],
+        "@typescript-eslint/ban-ts-comment": [
+          2,
+          {
+            "ts-expect-error": "allow-with-description"
+          }
+        ]
+      }
     }
   ]
 }

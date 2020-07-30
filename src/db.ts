@@ -64,7 +64,7 @@ export async function storeReleases(
   connection: Connection,
   releases: Parameters<InsertQueryBuilder<Release>["values"]>[0],
 ): Promise<void> {
-  connection
+  await connection
     .createQueryBuilder()
     .insert()
     .into(Release)

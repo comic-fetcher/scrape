@@ -1,6 +1,4 @@
-import { ComicWalkerComicReleaseData } from "./types";
-
-import { createRelease, concatReleases, parse } from ".";
+import { createRelease, parse } from ".";
 
 test("低レベルな生データを更新オブジェクトに変換", () => {
   const date = new Date(2020, 6, 26);
@@ -21,37 +19,6 @@ test("低レベルな生データを更新オブジェクトに変換", () => {
         platform: "ComicWalker",
       },
     },
-  ]);
-});
-
-test("複数の更新を集約する", () => {
-  const release1: ComicWalkerComicReleaseData = [
-    "KDCW_KS04201360010000_68",
-    {
-      date: new Date(2020, 6, 26),
-      detail: {
-        title: "東方酔蝶華　 ロータスイーター達の酔醒",
-        link:
-          "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-        platform: "ComicWalker",
-      },
-    },
-  ];
-  const release2: ComicWalkerComicReleaseData = [
-    "KDCW_AM21201313010000_68",
-    {
-      date: new Date(2020, 6, 26),
-      detail: {
-        title: "人間たちの幻想郷",
-        link:
-          "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
-        platform: "ComicWalker",
-      },
-    },
-  ];
-  expect(concatReleases([[release1], [release2]])).toEqual([
-    release1,
-    release2,
   ]);
 });
 

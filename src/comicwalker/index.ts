@@ -1,5 +1,3 @@
-import { concat } from "lodash";
-
 import { estimateFullDate, separateStringToMonthAndDate } from "./date/day";
 import { getWeekNumberFromJapanese } from "./date/week";
 import { uncertain } from "./dom";
@@ -23,12 +21,6 @@ export function createRelease(
       },
     },
   ];
-}
-
-export function concatReleases(
-  releases: ComicWalkerComicReleaseData[][],
-): ComicWalkerComicReleaseData[] {
-  return concat(...releases);
 }
 
 export function parse(

@@ -1,10 +1,9 @@
 import { JSDOM } from "jsdom";
+import { concat } from "lodash";
 
 import { fetchFromCalendarContents } from "./dom";
 import { parseRawData } from "./parse";
-import { ComicWalkerRawData, ComicWalkerComicReleaseData } from "./types";
-
-import { concatReleases } from ".";
+import { ComicWalkerComicReleaseData, ComicWalkerRawData } from "./types";
 
 export async function getJSDOM() {
   const res = await fetch("https://comic-walker.com/contents/calendar/");
@@ -53,5 +52,5 @@ export async function fetchComicReleases(): Promise<
   const raw = await combineRawData();
 
   const c = raw.map((r) => parseRawData(r, nowYear));
-  return concatReleases(c);
+  return concat(...c);
 }

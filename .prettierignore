@@ -1,8 +1,9 @@
 # Dependencies
-node_modules/
+/node_modules
 
-# Test
-coverage/
+# Tests
+/coverage
+/.nyc_output
 
 # Docker Volumes
-volumes/
+/volumes

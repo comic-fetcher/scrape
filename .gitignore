@@ -1,19 +1,37 @@
 # Dependencies
-node_modules/
-
-# Editor
-.vscode/
+/node_modules
 
 # Logfiles
+logs
 *.log
 
+# OS
+.DS_Store
+
 # Tests
-coverage/
+/coverage
+/.nyc_output
 
 # Docker Volumes
-volumes/
+/volumes
 
 # Environment Variables
 .env*
 .env
 !.env.example
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

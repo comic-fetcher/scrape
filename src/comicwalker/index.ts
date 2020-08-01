@@ -1,3 +1,5 @@
+import { concat } from "lodash";
+
 import {
   estimate,
   getDayFromJapanese,
@@ -40,7 +42,7 @@ export function createRelease(
 export function concatReleases(
   releases: ComicWalkerComicReleaseData[][],
 ): ComicWalkerComicReleaseData[] {
-  return releases.reduce((p, c) => [...p, ...c], []);
+  return concat(...releases);
 }
 
 export function parse(

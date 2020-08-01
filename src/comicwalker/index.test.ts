@@ -1,9 +1,6 @@
-import {
-  createRelease,
-  concatReleases,
-  ComicWalkerComicReleaseData,
-  parse,
-} from ".";
+import { ComicWalkerComicReleaseData } from "./types";
+
+import { createRelease, concatReleases, parse } from ".";
 
 test("低レベルな生データを更新オブジェクトに変換", () => {
   const date = new Date(2020, 6, 26);

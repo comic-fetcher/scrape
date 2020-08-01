@@ -1,24 +1,10 @@
 import { concat } from "lodash";
 
-import {
-  estimate,
-  getDayFromJapanese,
-  separateStringToMonthAndDate,
-} from "./date";
+import { estimateFullDate, separateStringToMonthAndDate } from "./date/day";
+import { getWeekNumberFromJapanese } from "./date/week";
 import { uncertain } from "./dom";
-import { combineLinkAndId } from "./utils";
-
-export type ComicWalkerComicReleaseData = [
-  string,
-  {
-    date: Date;
-    detail: {
-      title: string;
-      link: string;
-      platform: "ComicWalker";
-    };
-  },
-];
+import { ComicWalkerComicReleaseData } from "./types";
+import { combineLinkAndId } from "./utils/link";
 
 export function createRelease(
   title: string,
@@ -52,7 +38,12 @@ export function parse(
   startYear: number,
 ): ComicWalkerComicReleaseData[] {
   const { month, day } = separateStringToMonthAndDate(dateString);
-  const date = estimate(startYear, month, day, getDayFromJapanese(weekString));
+  const date = estimateFullDate(
+    startYear,
+    month,
+    day,
+    getWeekNumberFromJapanese(weekString),
+  );
   const releases = contents.map(({ title, href }) =>
     createRelease(title, href, date),
   );

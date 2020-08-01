@@ -5654,6 +5654,2959 @@ Array [
 ]
 `;
 
+exports[`fetch 変換後 1`] = `
+Array [
+  Array [
+    "KDCW_MF02200902010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF02200902010000_68/",
+        "platform": "ComicWalker",
+        "title": "三角の距離は限りないゼロ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS02200801010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS02200801010000_68/",
+        "platform": "ComicWalker",
+        "title": "スーパーのお兄さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01200853010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01200853010000_68/",
+        "platform": "ComicWalker",
+        "title": "ざつ旅-That's Journey-",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201040010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201040010000_68/",
+        "platform": "ComicWalker",
+        "title": "死神に育てられた少女は漆黒の剣を胸に抱く",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201281010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201281010000_68/",
+        "platform": "ComicWalker",
+        "title": "ラピスリライツ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_BR00000001010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_BR00000001010000_68/",
+        "platform": "ComicWalker",
+        "title": "カードファイト！！ ヴァンガード",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200360010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200360010000_68/",
+        "platform": "ComicWalker",
+        "title": "レディローズは平民になりたい",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01100039010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01100039010000_68/",
+        "platform": "ComicWalker",
+        "title": "愚かな天使は悪魔と踊る",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01100042010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01100042010000_68/",
+        "platform": "ComicWalker",
+        "title": "罠ガール",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01200588010000_68",
+    Object {
+      "date": 2020-08-01T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01200588010000_68/",
+        "platform": "ComicWalker",
+        "title": "影繰姫譚",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF02200708010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF02200708010000_68/",
+        "platform": "ComicWalker",
+        "title": "ベリアル様は四天王の中でも××",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF03201766010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF03201766010000_68/",
+        "platform": "ComicWalker",
+        "title": "どうやら彼女は宇宙人らしい。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01200375010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01200375010000_68/",
+        "platform": "ComicWalker",
+        "title": "とかくこの世は生きにくい ～「うつ」で“無”になった私～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM00000020010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM00000020010000_68/",
+        "platform": "ComicWalker",
+        "title": "竜魔神姫ヴァルアリスの敗北
+              ～魔界最強の姫が人類のグルメに負けるはずがない～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS04201781010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS04201781010000_68/",
+        "platform": "ComicWalker",
+        "title": "イチャイチャするとお金が湧いちゃう2人の話",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200900010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200900010000_68/",
+        "platform": "ComicWalker",
+        "title": "比羅坂日菜子がエロかわいいことを俺だけが知っている。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200932010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200932010000_68/",
+        "platform": "ComicWalker",
+        "title": "安達としまむら",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200992010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200992010000_68/",
+        "platform": "ComicWalker",
+        "title": "リベリオ・マキナ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06000002010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06000002010000_68/",
+        "platform": "ComicWalker",
+        "title": "ひなこのーと",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06000003010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06000003010000_68/",
+        "platform": "ComicWalker",
+        "title": "にゃんこデイズ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06000034010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06000034010000_68/",
+        "platform": "ComicWalker",
+        "title": "俺んちのメイドさん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06200578010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06200578010000_68/",
+        "platform": "ComicWalker",
+        "title": "テキトーなメイドのお姉さんと偉そうで一途な坊っちゃん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06200721010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06200721010000_68/",
+        "platform": "ComicWalker",
+        "title": "毛布おねえさんの温めかた",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06201137010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06201137010000_68/",
+        "platform": "ComicWalker",
+        "title": "俺の友達♂♀が可愛すぎて困る！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF06201559010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF06201559010000_68/",
+        "platform": "ComicWalker",
+        "title": "自転車のお姉さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM16000009010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM16000009010000_68/",
+        "platform": "ComicWalker",
+        "title": "いきのこれ！ 社畜ちゃん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM16000019010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM16000019010000_68/",
+        "platform": "ComicWalker",
+        "title": "ゆりなつ -民宿かがや-",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM16200941010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM16200941010000_68/",
+        "platform": "ComicWalker",
+        "title": "脱サラちゃんは癒されたい。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM16201229010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM16201229010000_68/",
+        "platform": "ComicWalker",
+        "title": "百合好きの男子高校生の話",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS09000003010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS09000003010000_68/",
+        "platform": "ComicWalker",
+        "title": "服を着るならこんなふうに",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11000001010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11000001010000_68/",
+        "platform": "ComicWalker",
+        "title": "公爵令嬢の嗜み",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11000008010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11000008010000_68/",
+        "platform": "ComicWalker",
+        "title": "賢者の孫",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11000010010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11000010010000_68/",
+        "platform": "ComicWalker",
+        "title": "文豪ストレイドッグスわん!",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11200186010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11200186010000_68/",
+        "platform": "ComicWalker",
+        "title": "パシリな僕と恋する番長さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11200363010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11200363010000_68/",
+        "platform": "ComicWalker",
+        "title": "ヘテロゲニア リンギスティコ ～異種族言語学入門～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11200364010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11200364010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界落語",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11200597010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11200597010000_68/",
+        "platform": "ComicWalker",
+        "title": "特殊性癖教室へようこそ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201418010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201418010000_68/",
+        "platform": "ComicWalker",
+        "title": "ゼロスキルの料理番",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201460010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201460010000_68/",
+        "platform": "ComicWalker",
+        "title": "北条うららの恋愛小説お書きなさい！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201461010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201461010000_68/",
+        "platform": "ComicWalker",
+        "title": "帰ってください！ 阿久津さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201652010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201652010000_68/",
+        "platform": "ComicWalker",
+        "title": "最強出涸らし皇子の暗躍帝位争い",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201653010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201653010000_68/",
+        "platform": "ComicWalker",
+        "title": "村づくりゲームのNPCが生身の人間としか思えない",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201762010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201762010000_68/",
+        "platform": "ComicWalker",
+        "title": "三大陸英雄記",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11201784010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11201784010000_68/",
+        "platform": "ComicWalker",
+        "title": "旅ぎゃる！日本じゅーだんチャリきこー",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00000002010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00000002010000_68/",
+        "platform": "ComicWalker",
+        "title": "聖女の魔力は万能です",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201494010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201494010000_68/",
+        "platform": "ComicWalker",
+        "title": "記憶喪失の侯爵様に溺愛されています これは偽りの幸福ですか？",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200267010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200267010000_68/",
+        "platform": "ComicWalker",
+        "title": "京の都の香の路",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200374010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200374010000_68/",
+        "platform": "ComicWalker",
+        "title": "SSRのタマゴ ～ 派遣イラストレーターはじめました ～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200469010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200469010000_68/",
+        "platform": "ComicWalker",
+        "title": "オールラッシュ！～映画を作る物語～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200486010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200486010000_68/",
+        "platform": "ComicWalker",
+        "title": "セイギとミライ -熱血司法書士の事件簿-",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200565010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200565010000_68/",
+        "platform": "ComicWalker",
+        "title": "突然、廃校と言われましても。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_BR00201789010000_68",
+    Object {
+      "date": 2020-08-02T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_BR00201789010000_68/",
+        "platform": "ComicWalker",
+        "title": "よんこま すたぁらいと",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF02200253010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF02200253010000_68/",
+        "platform": "ComicWalker",
+        "title": "乙女怪獣キャラメリゼ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000200010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000200010000_68/",
+        "platform": "ComicWalker",
+        "title": "僕と彼女の転生る異世界",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000300010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000300010000_68/",
+        "platform": "ComicWalker",
+        "title": "もふもふを知らなかったら人生の半分は無駄にしていた",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS02201527010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS02201527010000_68/",
+        "platform": "ComicWalker",
+        "title": "ドM女子とがっかり女王様",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06000042010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06000042010000_68/",
+        "platform": "ComicWalker",
+        "title": "KATANA",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06200397010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06200397010000_68/",
+        "platform": "ComicWalker",
+        "title": "月華国奇医伝",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06200400010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06200400010000_68/",
+        "platform": "ComicWalker",
+        "title": "こはる日和とアニマルボイス",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06200419010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06200419010000_68/",
+        "platform": "ComicWalker",
+        "title": "D・N・ANGEL",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06200643010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06200643010000_68/",
+        "platform": "ComicWalker",
+        "title": "トンプソン",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06200946010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06200946010000_68/",
+        "platform": "ComicWalker",
+        "title": "怪物少女図鑑",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06200999010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06200999010000_68/",
+        "platform": "ComicWalker",
+        "title": "プロメテウスの枷鎖",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201002010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201002010000_68/",
+        "platform": "ComicWalker",
+        "title": "美しビルの解かない探偵",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201076010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201076010000_68/",
+        "platform": "ComicWalker",
+        "title": "明治浪漫綺話",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201179010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201179010000_68/",
+        "platform": "ComicWalker",
+        "title": "桜の森の鬼暗らし",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201405010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201405010000_68/",
+        "platform": "ComicWalker",
+        "title": "Mr.マロウブルー",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201438010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201438010000_68/",
+        "platform": "ComicWalker",
+        "title": "残月、影横たはる辺",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201441010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201441010000_68/",
+        "platform": "ComicWalker",
+        "title": "ブナの森のアリア",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201718010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201718010000_68/",
+        "platform": "ComicWalker",
+        "title": "FOGGY FOOT",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS06201771010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS06201771010000_68/",
+        "platform": "ComicWalker",
+        "title": "春の翠雨",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200901010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200901010000_68/",
+        "platform": "ComicWalker",
+        "title": "来栖ありすはクールでいたい",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200933010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200933010000_68/",
+        "platform": "ComicWalker",
+        "title": "宝石省の新人",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201394010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201394010000_68/",
+        "platform": "ComicWalker",
+        "title": "やさしいセカイのつくりかた",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CK01000002010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CK01000002010000_68/",
+        "platform": "ComicWalker",
+        "title": "理系の人々",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM16201399010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM16201399010000_68/",
+        "platform": "ComicWalker",
+        "title": "性教育120%",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM18000003010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM18000003010000_68/",
+        "platform": "ComicWalker",
+        "title": "パーツのぱ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS12200852010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS12200852010000_68/",
+        "platform": "ComicWalker",
+        "title": "もちっと忠犬もちしば",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000170010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000170010000_68/",
+        "platform": "ComicWalker",
+        "title": "空手バカ異世界",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF09000002010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF09000002010000_68/",
+        "platform": "ComicWalker",
+        "title": "賭闘の銀",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF09000004010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF09000004010000_68/",
+        "platform": "ComicWalker",
+        "title": "王国へ続く道　奴隷剣士の成り上がり英雄譚",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF09201563010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF09201563010000_68/",
+        "platform": "ComicWalker",
+        "title": "脅威区 ～もうひとりの自分がバグりだす～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF09201578010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF09201578010000_68/",
+        "platform": "ComicWalker",
+        "title": "瀧夜叉姫　陰陽師絵草子",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF09201579010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF09201579010000_68/",
+        "platform": "ComicWalker",
+        "title": "ヘルドッグス 地獄の犬たち",
+      },
+    },
+  ],
+  Array [
+    "KDCW_BR00000003010000_68",
+    Object {
+      "date": 2020-08-03T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_BR00000003010000_68/",
+        "platform": "ComicWalker",
+        "title": "みにヴぁん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000024010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000024010000_68/",
+        "platform": "ComicWalker",
+        "title": "プランダラ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000047010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000047010000_68/",
+        "platform": "ComicWalker",
+        "title": "ゲーマーズ！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000048010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000048010000_68/",
+        "platform": "ComicWalker",
+        "title": "いにんぐ！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000054010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000054010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界チート魔術師",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000049010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000049010000_68/",
+        "platform": "ComicWalker",
+        "title": "けものみち",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000056010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000056010000_68/",
+        "platform": "ComicWalker",
+        "title": "ライセカミカ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01000062010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01000062010000_68/",
+        "platform": "ComicWalker",
+        "title": "ネクストライフ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11000028010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11000028010000_68/",
+        "platform": "ComicWalker",
+        "title": "フリーライフ 異世界何でも屋奮闘記",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01200230010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01200230010000_68/",
+        "platform": "ComicWalker",
+        "title": "女神寮の寮母くん。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01200682010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01200682010000_68/",
+        "platform": "ComicWalker",
+        "title": "元・世界１位のサブキャラ育成日記
+              ～廃プレイヤー、異世界を攻略中！～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01200696010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01200696010000_68/",
+        "platform": "ComicWalker",
+        "title": "ガーリー・エアフォース",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01200697010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01200697010000_68/",
+        "platform": "ComicWalker",
+        "title": "ひげを剃る。そして女子高生を拾う。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01200905010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01200905010000_68/",
+        "platform": "ComicWalker",
+        "title": "キミガシネ ―多数決デスゲーム―",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01201391010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01201391010000_68/",
+        "platform": "ComicWalker",
+        "title": "そらのおとしもの",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01201674010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01201674010000_68/",
+        "platform": "ComicWalker",
+        "title": "反抗できない！いばらちゃん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF01201323010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF01201323010000_68/",
+        "platform": "ComicWalker",
+        "title": "おでこさんウソつかない",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF01201396010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF01201396010000_68/",
+        "platform": "ComicWalker",
+        "title": "異形ヱステティック",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF02200275010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF02200275010000_68/",
+        "platform": "ComicWalker",
+        "title": "戦闘員、派遣します！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF02200276010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF02200276010000_68/",
+        "platform": "ComicWalker",
+        "title": "自称Ｆランクのお兄さまがゲームで評価される学園の頂点に君臨するそうですよ？",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF02201012010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF02201012010000_68/",
+        "platform": "ComicWalker",
+        "title": "幼なじみとトランクス あの娘はホントに女の子？",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01200704010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01200704010000_68/",
+        "platform": "ComicWalker",
+        "title": "アンゴルモア 元寇合戦記　【博多編】",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000450010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000450010000_68/",
+        "platform": "ComicWalker",
+        "title": "お酒のために乙女ゲー設定をぶち壊した結果、悪役令嬢がチート令嬢になりました",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM02000001010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM02000001010000_68/",
+        "platform": "ComicWalker",
+        "title": "白アリッッ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM02000002010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM02000002010000_68/",
+        "platform": "ComicWalker",
+        "title": "ふつつかな父娘ではありますが",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM02200434010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM02200434010000_68/",
+        "platform": "ComicWalker",
+        "title": "篠崎くんのメンテ事情",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM02201708010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM02201708010000_68/",
+        "platform": "ComicWalker",
+        "title": "キスと絶対世界征服",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200934010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200934010000_68/",
+        "platform": "ComicWalker",
+        "title": "野人転生",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201103010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201103010000_68/",
+        "platform": "ComicWalker",
+        "title": "恋する乙女はエロマンガに夢をみる",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM06201430010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM06201430010000_68/",
+        "platform": "ComicWalker",
+        "title": "クラスメイトの田中さんはすごく怖い",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM17201641010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM17201641010000_68/",
+        "platform": "ComicWalker",
+        "title": "弱小貴族の異世界奮闘記
+              ~うちの領地が大貴族に囲まれてて大変なんです!~",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS12200052010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS12200052010000_68/",
+        "platform": "ComicWalker",
+        "title": "世話やきキツネの仙狐さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS12200183010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS12200183010000_68/",
+        "platform": "ComicWalker",
+        "title": "スーパーカブ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201062010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201062010000_68/",
+        "platform": "ComicWalker",
+        "title": "第三王子は発光ブツにつき、直視注意！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201640010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201640010000_68/",
+        "platform": "ComicWalker",
+        "title": "悪役令嬢は嫌われ貴族に恋をする",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200266010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200266010000_68/",
+        "platform": "ComicWalker",
+        "title": "じしょへん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200724010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200724010000_68/",
+        "platform": "ComicWalker",
+        "title": "母様の家―拝み屋 郷内心瞳の怪異譚ー",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200858010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200858010000_68/",
+        "platform": "ComicWalker",
+        "title": "ニュースの現場から！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01201476010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01201476010000_68/",
+        "platform": "ComicWalker",
+        "title": "梅さんと小梅さん　親友はおばあちゃん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01201751010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01201751010000_68/",
+        "platform": "ComicWalker",
+        "title": "海のどうぶつが可愛すぎて！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01201752010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01201752010000_68/",
+        "platform": "ComicWalker",
+        "title": "La maquilleuse　～ヴェルサイユの化粧師～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01201753010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01201753010000_68/",
+        "platform": "ComicWalker",
+        "title": "派遣社員あすかの元ヤンごはん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM04201777010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM04201777010000_68/",
+        "platform": "ComicWalker",
+        "title": "残念系悪役令嬢は3年後に破滅するようです",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201669010000_68",
+    Object {
+      "date": 2020-08-04T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201669010000_68/",
+        "platform": "ComicWalker",
+        "title": "ろんぐらいだぁす！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03200195010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03200195010000_68/",
+        "platform": "ComicWalker",
+        "title": "最強の鑑定士って誰のこと？～満腹ごはんで異世界生活～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01200325010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01200325010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界で奴隷になりましたがご主人さまは私に欲情しません",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000095040000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000095040000_68/",
+        "platform": "ComicWalker",
+        "title": "異種族女子に○○する話",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201383010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201383010000_68/",
+        "platform": "ComicWalker",
+        "title": "不死の葬儀師",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201623010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201623010000_68/",
+        "platform": "ComicWalker",
+        "title": "夢の直路を恋惑ふ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM02201342010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM02201342010000_68/",
+        "platform": "ComicWalker",
+        "title": "いいんちょと不良くん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM02201663010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM02201663010000_68/",
+        "platform": "ComicWalker",
+        "title": "運命を信じない彼が言うには",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05200994010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05200994010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界帰りのおっさんは父性スキルでファザコン娘達をトロトロに",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201104010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201104010000_68/",
+        "platform": "ComicWalker",
+        "title": "怪談部の京香さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201280010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201280010000_68/",
+        "platform": "ComicWalker",
+        "title": "桜井さんは気づいてほしい",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03200954010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03200954010000_68/",
+        "platform": "ComicWalker",
+        "title": "ツンデレ悪役令嬢リーゼロッテと実況の遠藤くんと解説の小林さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03200955010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03200955010000_68/",
+        "platform": "ComicWalker",
+        "title": "メニューをどうぞ～異世界レストランに転職しました～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201069010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201069010000_68/",
+        "platform": "ComicWalker",
+        "title": "地味で目立たない私は、今日で終わりにします。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201128010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201128010000_68/",
+        "platform": "ComicWalker",
+        "title": "腹ぺこな上司の胃をつかむ方法
+              ～左遷先は宮廷魔導師の専属シェフ～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201131010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201131010000_68/",
+        "platform": "ComicWalker",
+        "title": "大預言者は前世から逃げる
+              ～三周目は公爵令嬢に転生したから、バラ色ライフを送りたい～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201207010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201207010000_68/",
+        "platform": "ComicWalker",
+        "title": "お弁当売りは聖女様！ ～異世界娘のあったかレシピ～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201318010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201318010000_68/",
+        "platform": "ComicWalker",
+        "title": "悪役令嬢になんかなりません。私は『普通』の公爵令嬢です！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201372010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201372010000_68/",
+        "platform": "ComicWalker",
+        "title": "薬師の伯爵令嬢は伝説の仔竜に愛される",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201445010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201445010000_68/",
+        "platform": "ComicWalker",
+        "title": "悪役令嬢レベル99～私は裏ボスですが魔王ではありません～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201519010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201519010000_68/",
+        "platform": "ComicWalker",
+        "title": "幼馴染みで悪魔な騎士は、私のことが大嫌い",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201580010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201580010000_68/",
+        "platform": "ComicWalker",
+        "title": "加護なし令嬢の小さな村 ～さあ、領地運営を始めましょう！～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201651010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201651010000_68/",
+        "platform": "ComicWalker",
+        "title": "婚約者は、私の妹に恋をする",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201656010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201656010000_68/",
+        "platform": "ComicWalker",
+        "title": "歴史に残る悪女になるぞ
+              　悪役令嬢になるほど王子の溺愛は加速するようです！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB03201657010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB03201657010000_68/",
+        "platform": "ComicWalker",
+        "title": "行き倒れもできないこんな異世界じゃ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00000001010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00000001010000_68/",
+        "platform": "ComicWalker",
+        "title": "なんちゃってシンデレラ 王宮陰謀編
+              異世界で、王太子妃はじめました。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200246010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200246010000_68/",
+        "platform": "ComicWalker",
+        "title": "聖女二人の異世界ぶらり旅",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200377010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200377010000_68/",
+        "platform": "ComicWalker",
+        "title": "アルバート家の令嬢は没落をご所望です",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200563010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200563010000_68/",
+        "platform": "ComicWalker",
+        "title": "狼領主のお嬢様",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200564010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200564010000_68/",
+        "platform": "ComicWalker",
+        "title": "31番目のお妃様",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200728010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200728010000_68/",
+        "platform": "ComicWalker",
+        "title": "大公妃候補だけど、堅実に行こうと思います",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200811010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200811010000_68/",
+        "platform": "ComicWalker",
+        "title": "屋根裏部屋の公爵夫人",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200812010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200812010000_68/",
+        "platform": "ComicWalker",
+        "title": "転生してヤンデレ攻略対象キャラと主従関係になった結果",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200865010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200865010000_68/",
+        "platform": "ComicWalker",
+        "title": "妹に婚約者を譲れと言われました　最強の竜に気に入られてまさかの王国乗っ取り？",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200866010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200866010000_68/",
+        "platform": "ComicWalker",
+        "title": "魔法世界の受付嬢になりたいです",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200953010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200953010000_68/",
+        "platform": "ComicWalker",
+        "title": "あなたに捧げる赤い薔薇",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201023010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201023010000_68/",
+        "platform": "ComicWalker",
+        "title": "お前みたいなヒロインがいてたまるか！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201057010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201057010000_68/",
+        "platform": "ComicWalker",
+        "title": "私この度、王国騎士団独身寮の家政婦をすることになりました",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201668010000_68",
+    Object {
+      "date": 2020-08-05T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201668010000_68/",
+        "platform": "ComicWalker",
+        "title": "探偵オペラ ミルキィホームズ はじめまして。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01201725010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01201725010000_68/",
+        "platform": "ComicWalker",
+        "title": "コインランドリーの女",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS01201726010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS01201726010000_68/",
+        "platform": "ComicWalker",
+        "title": "Ａｎｏｔｈｅｒ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS04000031010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS04000031010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界はスマートフォンとともに。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS04000032010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS04000032010000_68/",
+        "platform": "ComicWalker",
+        "title": "治癒魔法の間違った使い方 ~戦場を駆ける回復要員~",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS04201257010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS04201257010000_68/",
+        "platform": "ComicWalker",
+        "title": "異邦人、ダンジョンに潜る。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS04201259010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS04201259010000_68/",
+        "platform": "ComicWalker",
+        "title": "天空の城をもらったので異世界で楽しく遊びたい",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS04201413010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS04201413010000_68/",
+        "platform": "ComicWalker",
+        "title": "黒鉄の魔法使い",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01000021010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01000021010000_68/",
+        "platform": "ComicWalker",
+        "title": "残念女幹部ブラックジェネラルさん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01000051010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01000051010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界のんびり農家",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200515010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200515010000_68/",
+        "platform": "ComicWalker",
+        "title": "ゲーム　オブ　ファミリア-家族戦記-",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200574010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200574010000_68/",
+        "platform": "ComicWalker",
+        "title": "この勇者が俺TUEEEくせに慎重すぎる",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01201415010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01201415010000_68/",
+        "platform": "ComicWalker",
+        "title": "いろはにほエロ！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF01201029010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF01201029010000_68/",
+        "platform": "ComicWalker",
+        "title": "鬼嫁と結婚してしまった結果",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF03201774010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF03201774010000_68/",
+        "platform": "ComicWalker",
+        "title": "乙ゲーにトリップした俺♂リロード",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF03201779010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF03201779010000_68/",
+        "platform": "ComicWalker",
+        "title": "しにものがかり",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000051010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000051010000_68/",
+        "platform": "ComicWalker",
+        "title": "シロクマ転生 森の守護神になったぞ伝説",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB00000027010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB00000027010000_68/",
+        "platform": "ComicWalker",
+        "title": "便利屋斎藤さん、異世界に行く",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01200749010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01200749010000_68/",
+        "platform": "ComicWalker",
+        "title": "クーデレすぎる未来の嫁の面倒な7日間",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201144010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201144010000_68/",
+        "platform": "ComicWalker",
+        "title": "えっ、転移失敗！？ ……成功？",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000270010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000270010000_68/",
+        "platform": "ComicWalker",
+        "title": "人間不信の冒険者たちが世界を救うようです",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000310010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000310010000_68/",
+        "platform": "ComicWalker",
+        "title": "ニトの怠惰な異世界症候群
+              ～最弱職＜ヒーラー＞なのに最強はチートですか？～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000330010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000330010000_68/",
+        "platform": "ComicWalker",
+        "title": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201741010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201741010000_68/",
+        "platform": "ComicWalker",
+        "title": "青春おうか部 全部いり",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS02000041010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS02000041010000_68/",
+        "platform": "ComicWalker",
+        "title": "であいもん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS02000048010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS02000048010000_68/",
+        "platform": "ComicWalker",
+        "title": "理想のヒモ生活",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS02200555010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS02200555010000_68/",
+        "platform": "ComicWalker",
+        "title": "ラストギアス",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201105010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201105010000_68/",
+        "platform": "ComicWalker",
+        "title": "外道魔術師の憑依譚
+              ～最強剣士を乗っ取ったら、自分の身体を探すことになった～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_EB01201661010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_EB01201661010000_68/",
+        "platform": "ComicWalker",
+        "title": "双子たちの諸事情",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM17201359010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM17201359010000_68/",
+        "platform": "ComicWalker",
+        "title": "転生賢者は娘と暮らす。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM19200711010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM19200711010000_68/",
+        "platform": "ComicWalker",
+        "title": "航宙軍士官、冒険者になる",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM19201321010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM19201321010000_68/",
+        "platform": "ComicWalker",
+        "title": "神々に育てられしもの、最強となる",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM19201437010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM19201437010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界女子寮 使い魔いおりとモン娘たちの365日",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM19201646010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM19201646010000_68/",
+        "platform": "ComicWalker",
+        "title": "そのうち結婚までいくけど今はまだ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM19201666010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM19201666010000_68/",
+        "platform": "ComicWalker",
+        "title": "吸血鬼と呼ばれたい！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM19201711010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM19201711010000_68/",
+        "platform": "ComicWalker",
+        "title": "鍛冶屋ではじめる異世界スローライフ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200360010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200360010000_68/",
+        "platform": "ComicWalker",
+        "title": "レディローズは平民になりたい",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00200835010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00200835010000_68/",
+        "platform": "ComicWalker",
+        "title": "転生令嬢は冒険者を志す",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201307010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201307010000_68/",
+        "platform": "ComicWalker",
+        "title": "私はご都合主義な解決担当の王女である",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201320010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201320010000_68/",
+        "platform": "ComicWalker",
+        "title": "聖女じゃなかったので、王宮でのんびりご飯を作ることにしました",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201343010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201343010000_68/",
+        "platform": "ComicWalker",
+        "title": "魔王様にパフェを作ったら喜ばれました",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201486010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201486010000_68/",
+        "platform": "ComicWalker",
+        "title": "異世界大家さんの下宿屋事情 笑顔になれる特製レシピ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201503010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201503010000_68/",
+        "platform": "ComicWalker",
+        "title": "勇者様の幼馴染という職業の負けヒロインに転生したので、調合師にジョブチェンジします。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201645010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201645010000_68/",
+        "platform": "ComicWalker",
+        "title": "悪役令嬢、セシリア・シルビィは死にたくないので男装することにした。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201808010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201808010000_68/",
+        "platform": "ComicWalker",
+        "title": "乙女ゲームの世界で私が悪役令嬢！？そんなのお断りです！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200483010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200483010000_68/",
+        "platform": "ComicWalker",
+        "title": "DOG SIGNAL",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200551010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200551010000_68/",
+        "platform": "ComicWalker",
+        "title": "荒木田先生のハッピーポートレート",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200560010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200560010000_68/",
+        "platform": "ComicWalker",
+        "title": "三枝教授のすばらしき菌類学教室",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01200617010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01200617010000_68/",
+        "platform": "ComicWalker",
+        "title": "極楽寺ひねもす日記",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CB01201750010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CB01201750010000_68/",
+        "platform": "ComicWalker",
+        "title": "やさしいしろくま",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200196010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200196010000_68/",
+        "platform": "ComicWalker",
+        "title": "どうやら私の身体は完全無敵のようですね",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200320010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200320010000_68/",
+        "platform": "ComicWalker",
+        "title": "ライブダンジョン！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200334010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200334010000_68/",
+        "platform": "ComicWalker",
+        "title": "魔王になったので、ダンジョン造って人外娘とほのぼのする",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200541010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200541010000_68/",
+        "platform": "ComicWalker",
+        "title": "乙女ゲー世界はモブに厳しい世界です",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200646010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200646010000_68/",
+        "platform": "ComicWalker",
+        "title": "はぐれ精霊医の診察記録 ～聖女騎士団と癒やしの神業～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200684010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200684010000_68/",
+        "platform": "ComicWalker",
+        "title": "日常ではさえないただのおっさん、本当は地上最強の戦神",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS00000017010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS00000017010000_68/",
+        "platform": "ComicWalker",
+        "title": "僕のカノジョ先生",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS04200862010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS04200862010000_68/",
+        "platform": "ComicWalker",
+        "title": "ギリギリ遮る片桐さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS04200864010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS04200864010000_68/",
+        "platform": "ComicWalker",
+        "title": "占い師の悩み事",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS00000018010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS00000018010000_68/",
+        "platform": "ComicWalker",
+        "title": "継母の連れ子が元カノだった",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS00000019010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS00000019010000_68/",
+        "platform": "ComicWalker",
+        "title": "魔石グルメ　魔物の力を食べたオレは最強！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS04201092010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS04201092010000_68/",
+        "platform": "ComicWalker",
+        "title": "幼なじみのママじゃイヤ？",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS04201112010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS04201112010000_68/",
+        "platform": "ComicWalker",
+        "title": "極振り拒否して手探りスタート！　特化しないヒーラー、仲間と別れて旅に出る",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS04201271010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS04201271010000_68/",
+        "platform": "ComicWalker",
+        "title": "好感度が見えるようになったんだが、ヒロインがカンストしている件",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS04201505010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS04201505010000_68/",
+        "platform": "ComicWalker",
+        "title": "このあと滅茶苦茶ラブコメした
+              本当はあなたのこと大好きだけど、絶対バレてるわけないよね!!",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS13201665010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS13201665010000_68/",
+        "platform": "ComicWalker",
+        "title": "そのヲタク、元殺し屋。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS13201680010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS13201680010000_68/",
+        "platform": "ComicWalker",
+        "title": "クレイジー・キッチン",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS13201687010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS13201687010000_68/",
+        "platform": "ComicWalker",
+        "title": "絶対に風呂に入りたくない彼女VS絶対に風呂に入れたい彼氏",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS13201693010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS13201693010000_68/",
+        "platform": "ComicWalker",
+        "title": "もし、恋が見えたなら",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS13201702010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS13201702010000_68/",
+        "platform": "ComicWalker",
+        "title": "膳所くんと長浜さん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS13201707010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS13201707010000_68/",
+        "platform": "ComicWalker",
+        "title": "恋するブキミちゃん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FS01200163010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FS01200163010000_68/",
+        "platform": "ComicWalker",
+        "title": "羊角のマジョロミ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_CW01201671010000_68",
+    Object {
+      "date": 2020-08-06T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_CW01201671010000_68/",
+        "platform": "ComicWalker",
+        "title": "カードファイト！！ ヴァンガードG ストライドジェネレーション",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03000016010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03000016010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ガンダム0083　REBELLION",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03000005010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03000005010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ガンダムＭＳＶ-Ｒ　ジョニー・ライデンの帰還",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03000020010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03000020010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ガンダム外伝 ザ・ブルー・ディスティニー",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03000012010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03000012010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士Ζガンダム　Ｄｅｆｉｎｅ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03000023010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03000023010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士クロスボーン・ガンダム DUST",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03000025010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03000025010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ガンダム ヴァルプルギス",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03200227010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03200227010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ガンダム GROUND ZERO コロニーの落ちた地で -RISE FROM THE
+              ASHES-",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03200315010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03200315010000_68/",
+        "platform": "ComicWalker",
+        "title": "ガンダムビルドファイターズＡ-Ｒ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03200317010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03200317010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ムーンガンダム",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS03200693010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS03200693010000_68/",
+        "platform": "ComicWalker",
+        "title": "機動戦士ガンダム　ＮＴ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000500010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000500010000_68/",
+        "platform": "ComicWalker",
+        "title": "豊田さんは悩まない。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01200193010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01200193010000_68/",
+        "platform": "ComicWalker",
+        "title": "天華百剣 -戯-",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01200674010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01200674010000_68/",
+        "platform": "ComicWalker",
+        "title": "ペルソナ５　メメントスミッション",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01201102010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01201102010000_68/",
+        "platform": "ComicWalker",
+        "title": "リビルドワールド",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01201302010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01201302010000_68/",
+        "platform": "ComicWalker",
+        "title": "押して駄目なら押してみろ！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01201344010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01201344010000_68/",
+        "platform": "ComicWalker",
+        "title": "多田依さんはホメられない！",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01201471010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01201471010000_68/",
+        "platform": "ComicWalker",
+        "title": "コーヒームーン",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM01201697010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM01201697010000_68/",
+        "platform": "ComicWalker",
+        "title": "姫神の巫女",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201500010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201500010000_68/",
+        "platform": "ComicWalker",
+        "title": "灰の双子は白黒つけずに世界を救います。",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM05201698010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM05201698010000_68/",
+        "platform": "ComicWalker",
+        "title": "q.天上の音楽",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM06000005010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM06000005010000_68/",
+        "platform": "ComicWalker",
+        "title": "ガヴリールドロップアウト",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM06000011010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM06000011010000_68/",
+        "platform": "ComicWalker",
+        "title": "魔法科高校の劣等生 よんこま編",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM06200780010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM06200780010000_68/",
+        "platform": "ComicWalker",
+        "title": "タプリスシュガーステップ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM06201185010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM06201185010000_68/",
+        "platform": "ComicWalker",
+        "title": "もいもいスイスイ",
+      },
+    },
+  ],
+  Array [
+    "KDCW_AM06201397010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_AM06201397010000_68/",
+        "platform": "ComicWalker",
+        "title": "最高なあたしの最強なろくでなし攻略法",
+      },
+    },
+  ],
+  Array [
+    "KDCW_MF00000510010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_MF00000510010000_68/",
+        "platform": "ComicWalker",
+        "title": "両片想いな双子姉妹",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS12200554010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS12200554010000_68/",
+        "platform": "ComicWalker",
+        "title": "家庭教師のルルーシュさん",
+      },
+    },
+  ],
+  Array [
+    "KDCW_KS11000027010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_KS11000027010000_68/",
+        "platform": "ComicWalker",
+        "title": "回復術士のやり直し ～即死魔法とスキルコピーの超越ヒール～",
+      },
+    },
+  ],
+  Array [
+    "KDCW_FL00201730010000_68",
+    Object {
+      "date": 2020-08-07T15:00:00.000Z,
+      "detail": Object {
+        "link": "https://comic-walker.com/contents/detail/KDCW_FL00201730010000_68/",
+        "platform": "ComicWalker",
+        "title": "貴族から庶民になったので、婚約を解消されました！",
+      },
+    },
+  ],
+]
+`;
+
 exports[`fetch 日付の生文字列 1`] = `"08/02"`;
 
 exports[`fetch 日付の生文字列 2`] = `"08/03"`;
@@ -5682,4 +8635,1128 @@ exports[`fetch 曜日の生文字列 6`] = `"金"`;
 
 exports[`fetch 曜日の生文字列 7`] = `"土"`;
 
-exports[`fetch 結合結果 1`] = `Promise {}`;
+exports[`fetch 結合結果 1`] = `
+Array [
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_MF02200902010000_68/",
+        "title": "三角の距離は限りないゼロ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS02200801010000_68/",
+        "title": "スーパーのお兄さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01200853010000_68/",
+        "title": "ざつ旅-That's Journey-",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201040010000_68/",
+        "title": "死神に育てられた少女は漆黒の剣を胸に抱く",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201281010000_68/",
+        "title": "ラピスリライツ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_BR00000001010000_68/",
+        "title": "カードファイト！！ ヴァンガード",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200360010000_68/",
+        "title": "レディローズは平民になりたい",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01100039010000_68/",
+        "title": "愚かな天使は悪魔と踊る",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01100042010000_68/",
+        "title": "罠ガール",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01200588010000_68/",
+        "title": "影繰姫譚",
+      },
+    ],
+    "day": "08/02",
+    "week": "日",
+  },
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_MF02200708010000_68/",
+        "title": "ベリアル様は四天王の中でも××",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF03201766010000_68/",
+        "title": "どうやら彼女は宇宙人らしい。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01200375010000_68/",
+        "title": "とかくこの世は生きにくい ～「うつ」で“無”になった私～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM00000020010000_68/",
+        "title": "竜魔神姫ヴァルアリスの敗北
+              ～魔界最強の姫が人類のグルメに負けるはずがない～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS04201781010000_68/",
+        "title": "イチャイチャするとお金が湧いちゃう2人の話",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200900010000_68/",
+        "title": "比羅坂日菜子がエロかわいいことを俺だけが知っている。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200932010000_68/",
+        "title": "安達としまむら",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200992010000_68/",
+        "title": "リベリオ・マキナ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06000002010000_68/",
+        "title": "ひなこのーと",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06000003010000_68/",
+        "title": "にゃんこデイズ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06000034010000_68/",
+        "title": "俺んちのメイドさん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06200578010000_68/",
+        "title": "テキトーなメイドのお姉さんと偉そうで一途な坊っちゃん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06200721010000_68/",
+        "title": "毛布おねえさんの温めかた",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06201137010000_68/",
+        "title": "俺の友達♂♀が可愛すぎて困る！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF06201559010000_68/",
+        "title": "自転車のお姉さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM16000009010000_68/",
+        "title": "いきのこれ！ 社畜ちゃん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM16000019010000_68/",
+        "title": "ゆりなつ -民宿かがや-",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM16200941010000_68/",
+        "title": "脱サラちゃんは癒されたい。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM16201229010000_68/",
+        "title": "百合好きの男子高校生の話",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS09000003010000_68/",
+        "title": "服を着るならこんなふうに",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11000001010000_68/",
+        "title": "公爵令嬢の嗜み",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11000008010000_68/",
+        "title": "賢者の孫",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11000010010000_68/",
+        "title": "文豪ストレイドッグスわん!",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11200186010000_68/",
+        "title": "パシリな僕と恋する番長さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11200363010000_68/",
+        "title": "ヘテロゲニア リンギスティコ ～異種族言語学入門～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11200364010000_68/",
+        "title": "異世界落語",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11200597010000_68/",
+        "title": "特殊性癖教室へようこそ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201418010000_68/",
+        "title": "ゼロスキルの料理番",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201460010000_68/",
+        "title": "北条うららの恋愛小説お書きなさい！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201461010000_68/",
+        "title": "帰ってください！ 阿久津さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201652010000_68/",
+        "title": "最強出涸らし皇子の暗躍帝位争い",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201653010000_68/",
+        "title": "村づくりゲームのNPCが生身の人間としか思えない",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201762010000_68/",
+        "title": "三大陸英雄記",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11201784010000_68/",
+        "title": "旅ぎゃる！日本じゅーだんチャリきこー",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00000002010000_68/",
+        "title": "聖女の魔力は万能です",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201494010000_68/",
+        "title": "記憶喪失の侯爵様に溺愛されています これは偽りの幸福ですか？",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200267010000_68/",
+        "title": "京の都の香の路",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200374010000_68/",
+        "title": "SSRのタマゴ ～ 派遣イラストレーターはじめました ～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200469010000_68/",
+        "title": "オールラッシュ！～映画を作る物語～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200486010000_68/",
+        "title": "セイギとミライ -熱血司法書士の事件簿-",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200565010000_68/",
+        "title": "突然、廃校と言われましても。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_BR00201789010000_68/",
+        "title": "よんこま すたぁらいと",
+      },
+    ],
+    "day": "08/03",
+    "week": "月",
+  },
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_MF02200253010000_68/",
+        "title": "乙女怪獣キャラメリゼ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000200010000_68/",
+        "title": "僕と彼女の転生る異世界",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000300010000_68/",
+        "title": "もふもふを知らなかったら人生の半分は無駄にしていた",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS02201527010000_68/",
+        "title": "ドM女子とがっかり女王様",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06000042010000_68/",
+        "title": "KATANA",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06200397010000_68/",
+        "title": "月華国奇医伝",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06200400010000_68/",
+        "title": "こはる日和とアニマルボイス",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06200419010000_68/",
+        "title": "D・N・ANGEL",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06200643010000_68/",
+        "title": "トンプソン",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06200946010000_68/",
+        "title": "怪物少女図鑑",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06200999010000_68/",
+        "title": "プロメテウスの枷鎖",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201002010000_68/",
+        "title": "美しビルの解かない探偵",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201076010000_68/",
+        "title": "明治浪漫綺話",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201179010000_68/",
+        "title": "桜の森の鬼暗らし",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201405010000_68/",
+        "title": "Mr.マロウブルー",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201438010000_68/",
+        "title": "残月、影横たはる辺",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201441010000_68/",
+        "title": "ブナの森のアリア",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201718010000_68/",
+        "title": "FOGGY FOOT",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS06201771010000_68/",
+        "title": "春の翠雨",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200901010000_68/",
+        "title": "来栖ありすはクールでいたい",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200933010000_68/",
+        "title": "宝石省の新人",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201394010000_68/",
+        "title": "やさしいセカイのつくりかた",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CK01000002010000_68/",
+        "title": "理系の人々",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM16201399010000_68/",
+        "title": "性教育120%",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM18000003010000_68/",
+        "title": "パーツのぱ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS12200852010000_68/",
+        "title": "もちっと忠犬もちしば",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000170010000_68/",
+        "title": "空手バカ異世界",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF09000002010000_68/",
+        "title": "賭闘の銀",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF09000004010000_68/",
+        "title": "王国へ続く道　奴隷剣士の成り上がり英雄譚",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF09201563010000_68/",
+        "title": "脅威区 ～もうひとりの自分がバグりだす～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF09201578010000_68/",
+        "title": "瀧夜叉姫　陰陽師絵草子",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF09201579010000_68/",
+        "title": "ヘルドッグス 地獄の犬たち",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_BR00000003010000_68/",
+        "title": "みにヴぁん",
+      },
+    ],
+    "day": "08/04",
+    "week": "火",
+  },
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_KS01000024010000_68/",
+        "title": "プランダラ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01000047010000_68/",
+        "title": "ゲーマーズ！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01000048010000_68/",
+        "title": "いにんぐ！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01000054010000_68/",
+        "title": "異世界チート魔術師",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01000049010000_68/",
+        "title": "けものみち",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01000056010000_68/",
+        "title": "ライセカミカ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01000062010000_68/",
+        "title": "ネクストライフ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11000028010000_68/",
+        "title": "フリーライフ 異世界何でも屋奮闘記",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01200230010000_68/",
+        "title": "女神寮の寮母くん。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01200682010000_68/",
+        "title": "元・世界１位のサブキャラ育成日記
+              ～廃プレイヤー、異世界を攻略中！～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01200696010000_68/",
+        "title": "ガーリー・エアフォース",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01200697010000_68/",
+        "title": "ひげを剃る。そして女子高生を拾う。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01200905010000_68/",
+        "title": "キミガシネ ―多数決デスゲーム―",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01201391010000_68/",
+        "title": "そらのおとしもの",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01201674010000_68/",
+        "title": "反抗できない！いばらちゃん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF01201323010000_68/",
+        "title": "おでこさんウソつかない",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF01201396010000_68/",
+        "title": "異形ヱステティック",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF02200275010000_68/",
+        "title": "戦闘員、派遣します！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF02200276010000_68/",
+        "title": "自称Ｆランクのお兄さまがゲームで評価される学園の頂点に君臨するそうですよ？",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF02201012010000_68/",
+        "title": "幼なじみとトランクス あの娘はホントに女の子？",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01200704010000_68/",
+        "title": "アンゴルモア 元寇合戦記　【博多編】",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000450010000_68/",
+        "title": "お酒のために乙女ゲー設定をぶち壊した結果、悪役令嬢がチート令嬢になりました",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM02000001010000_68/",
+        "title": "白アリッッ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM02000002010000_68/",
+        "title": "ふつつかな父娘ではありますが",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM02200434010000_68/",
+        "title": "篠崎くんのメンテ事情",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM02201708010000_68/",
+        "title": "キスと絶対世界征服",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200934010000_68/",
+        "title": "野人転生",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201103010000_68/",
+        "title": "恋する乙女はエロマンガに夢をみる",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM06201430010000_68/",
+        "title": "クラスメイトの田中さんはすごく怖い",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM17201641010000_68/",
+        "title": "弱小貴族の異世界奮闘記
+              ~うちの領地が大貴族に囲まれてて大変なんです!~",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS12200052010000_68/",
+        "title": "世話やきキツネの仙狐さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS12200183010000_68/",
+        "title": "スーパーカブ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201062010000_68/",
+        "title": "第三王子は発光ブツにつき、直視注意！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201640010000_68/",
+        "title": "悪役令嬢は嫌われ貴族に恋をする",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200266010000_68/",
+        "title": "じしょへん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200724010000_68/",
+        "title": "母様の家―拝み屋 郷内心瞳の怪異譚ー",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200858010000_68/",
+        "title": "ニュースの現場から！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01201476010000_68/",
+        "title": "梅さんと小梅さん　親友はおばあちゃん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01201751010000_68/",
+        "title": "海のどうぶつが可愛すぎて！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01201752010000_68/",
+        "title": "La maquilleuse　～ヴェルサイユの化粧師～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01201753010000_68/",
+        "title": "派遣社員あすかの元ヤンごはん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM04201777010000_68/",
+        "title": "残念系悪役令嬢は3年後に破滅するようです",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201669010000_68/",
+        "title": "ろんぐらいだぁす！",
+      },
+    ],
+    "day": "08/05",
+    "week": "水",
+  },
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_EB03200195010000_68/",
+        "title": "最強の鑑定士って誰のこと？～満腹ごはんで異世界生活～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01200325010000_68/",
+        "title": "異世界で奴隷になりましたがご主人さまは私に欲情しません",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000095040000_68/",
+        "title": "異種族女子に○○する話",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201383010000_68/",
+        "title": "不死の葬儀師",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201623010000_68/",
+        "title": "夢の直路を恋惑ふ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM02201342010000_68/",
+        "title": "いいんちょと不良くん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM02201663010000_68/",
+        "title": "運命を信じない彼が言うには",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05200994010000_68/",
+        "title": "異世界帰りのおっさんは父性スキルでファザコン娘達をトロトロに",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201104010000_68/",
+        "title": "怪談部の京香さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201280010000_68/",
+        "title": "桜井さんは気づいてほしい",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03200954010000_68/",
+        "title": "ツンデレ悪役令嬢リーゼロッテと実況の遠藤くんと解説の小林さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03200955010000_68/",
+        "title": "メニューをどうぞ～異世界レストランに転職しました～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201069010000_68/",
+        "title": "地味で目立たない私は、今日で終わりにします。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201128010000_68/",
+        "title": "腹ぺこな上司の胃をつかむ方法
+              ～左遷先は宮廷魔導師の専属シェフ～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201131010000_68/",
+        "title": "大預言者は前世から逃げる
+              ～三周目は公爵令嬢に転生したから、バラ色ライフを送りたい～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201207010000_68/",
+        "title": "お弁当売りは聖女様！ ～異世界娘のあったかレシピ～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201318010000_68/",
+        "title": "悪役令嬢になんかなりません。私は『普通』の公爵令嬢です！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201372010000_68/",
+        "title": "薬師の伯爵令嬢は伝説の仔竜に愛される",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201445010000_68/",
+        "title": "悪役令嬢レベル99～私は裏ボスですが魔王ではありません～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201519010000_68/",
+        "title": "幼馴染みで悪魔な騎士は、私のことが大嫌い",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201580010000_68/",
+        "title": "加護なし令嬢の小さな村 ～さあ、領地運営を始めましょう！～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201651010000_68/",
+        "title": "婚約者は、私の妹に恋をする",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201656010000_68/",
+        "title": "歴史に残る悪女になるぞ
+              　悪役令嬢になるほど王子の溺愛は加速するようです！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB03201657010000_68/",
+        "title": "行き倒れもできないこんな異世界じゃ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00000001010000_68/",
+        "title": "なんちゃってシンデレラ 王宮陰謀編
+              異世界で、王太子妃はじめました。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200246010000_68/",
+        "title": "聖女二人の異世界ぶらり旅",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200377010000_68/",
+        "title": "アルバート家の令嬢は没落をご所望です",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200563010000_68/",
+        "title": "狼領主のお嬢様",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200564010000_68/",
+        "title": "31番目のお妃様",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200728010000_68/",
+        "title": "大公妃候補だけど、堅実に行こうと思います",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200811010000_68/",
+        "title": "屋根裏部屋の公爵夫人",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200812010000_68/",
+        "title": "転生してヤンデレ攻略対象キャラと主従関係になった結果",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200865010000_68/",
+        "title": "妹に婚約者を譲れと言われました　最強の竜に気に入られてまさかの王国乗っ取り？",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200866010000_68/",
+        "title": "魔法世界の受付嬢になりたいです",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200953010000_68/",
+        "title": "あなたに捧げる赤い薔薇",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201023010000_68/",
+        "title": "お前みたいなヒロインがいてたまるか！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201057010000_68/",
+        "title": "私この度、王国騎士団独身寮の家政婦をすることになりました",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201668010000_68/",
+        "title": "探偵オペラ ミルキィホームズ はじめまして。",
+      },
+    ],
+    "day": "08/06",
+    "week": "木",
+  },
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_KS01201725010000_68/",
+        "title": "コインランドリーの女",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS01201726010000_68/",
+        "title": "Ａｎｏｔｈｅｒ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS04000031010000_68/",
+        "title": "異世界はスマートフォンとともに。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS04000032010000_68/",
+        "title": "治癒魔法の間違った使い方 ~戦場を駆ける回復要員~",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS04201257010000_68/",
+        "title": "異邦人、ダンジョンに潜る。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS04201259010000_68/",
+        "title": "天空の城をもらったので異世界で楽しく遊びたい",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS04201413010000_68/",
+        "title": "黒鉄の魔法使い",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01000021010000_68/",
+        "title": "残念女幹部ブラックジェネラルさん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01000051010000_68/",
+        "title": "異世界のんびり農家",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200515010000_68/",
+        "title": "ゲーム　オブ　ファミリア-家族戦記-",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200574010000_68/",
+        "title": "この勇者が俺TUEEEくせに慎重すぎる",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01201415010000_68/",
+        "title": "いろはにほエロ！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF01201029010000_68/",
+        "title": "鬼嫁と結婚してしまった結果",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF03201774010000_68/",
+        "title": "乙ゲーにトリップした俺♂リロード",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF03201779010000_68/",
+        "title": "しにものがかり",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000051010000_68/",
+        "title": "シロクマ転生 森の守護神になったぞ伝説",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB00000027010000_68/",
+        "title": "便利屋斎藤さん、異世界に行く",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01200749010000_68/",
+        "title": "クーデレすぎる未来の嫁の面倒な7日間",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201144010000_68/",
+        "title": "えっ、転移失敗！？ ……成功？",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000270010000_68/",
+        "title": "人間不信の冒険者たちが世界を救うようです",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000310010000_68/",
+        "title": "ニトの怠惰な異世界症候群
+              ～最弱職＜ヒーラー＞なのに最強はチートですか？～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000330010000_68/",
+        "title": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201741010000_68/",
+        "title": "青春おうか部 全部いり",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS02000041010000_68/",
+        "title": "であいもん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS02000048010000_68/",
+        "title": "理想のヒモ生活",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS02200555010000_68/",
+        "title": "ラストギアス",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201105010000_68/",
+        "title": "外道魔術師の憑依譚
+              ～最強剣士を乗っ取ったら、自分の身体を探すことになった～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_EB01201661010000_68/",
+        "title": "双子たちの諸事情",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM17201359010000_68/",
+        "title": "転生賢者は娘と暮らす。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM19200711010000_68/",
+        "title": "航宙軍士官、冒険者になる",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM19201321010000_68/",
+        "title": "神々に育てられしもの、最強となる",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM19201437010000_68/",
+        "title": "異世界女子寮 使い魔いおりとモン娘たちの365日",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM19201646010000_68/",
+        "title": "そのうち結婚までいくけど今はまだ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM19201666010000_68/",
+        "title": "吸血鬼と呼ばれたい！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM19201711010000_68/",
+        "title": "鍛冶屋ではじめる異世界スローライフ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200360010000_68/",
+        "title": "レディローズは平民になりたい",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00200835010000_68/",
+        "title": "転生令嬢は冒険者を志す",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201307010000_68/",
+        "title": "私はご都合主義な解決担当の王女である",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201320010000_68/",
+        "title": "聖女じゃなかったので、王宮でのんびりご飯を作ることにしました",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201343010000_68/",
+        "title": "魔王様にパフェを作ったら喜ばれました",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201486010000_68/",
+        "title": "異世界大家さんの下宿屋事情 笑顔になれる特製レシピ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201503010000_68/",
+        "title": "勇者様の幼馴染という職業の負けヒロインに転生したので、調合師にジョブチェンジします。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201645010000_68/",
+        "title": "悪役令嬢、セシリア・シルビィは死にたくないので男装することにした。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201808010000_68/",
+        "title": "乙女ゲームの世界で私が悪役令嬢！？そんなのお断りです！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200483010000_68/",
+        "title": "DOG SIGNAL",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200551010000_68/",
+        "title": "荒木田先生のハッピーポートレート",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200560010000_68/",
+        "title": "三枝教授のすばらしき菌類学教室",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01200617010000_68/",
+        "title": "極楽寺ひねもす日記",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CB01201750010000_68/",
+        "title": "やさしいしろくま",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200196010000_68/",
+        "title": "どうやら私の身体は完全無敵のようですね",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200320010000_68/",
+        "title": "ライブダンジョン！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200334010000_68/",
+        "title": "魔王になったので、ダンジョン造って人外娘とほのぼのする",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200541010000_68/",
+        "title": "乙女ゲー世界はモブに厳しい世界です",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200646010000_68/",
+        "title": "はぐれ精霊医の診察記録 ～聖女騎士団と癒やしの神業～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200684010000_68/",
+        "title": "日常ではさえないただのおっさん、本当は地上最強の戦神",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS00000017010000_68/",
+        "title": "僕のカノジョ先生",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS04200862010000_68/",
+        "title": "ギリギリ遮る片桐さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS04200864010000_68/",
+        "title": "占い師の悩み事",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS00000018010000_68/",
+        "title": "継母の連れ子が元カノだった",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS00000019010000_68/",
+        "title": "魔石グルメ　魔物の力を食べたオレは最強！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS04201092010000_68/",
+        "title": "幼なじみのママじゃイヤ？",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS04201112010000_68/",
+        "title": "極振り拒否して手探りスタート！　特化しないヒーラー、仲間と別れて旅に出る",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS04201271010000_68/",
+        "title": "好感度が見えるようになったんだが、ヒロインがカンストしている件",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS04201505010000_68/",
+        "title": "このあと滅茶苦茶ラブコメした
+              本当はあなたのこと大好きだけど、絶対バレてるわけないよね!!",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS13201665010000_68/",
+        "title": "そのヲタク、元殺し屋。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS13201680010000_68/",
+        "title": "クレイジー・キッチン",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS13201687010000_68/",
+        "title": "絶対に風呂に入りたくない彼女VS絶対に風呂に入れたい彼氏",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS13201693010000_68/",
+        "title": "もし、恋が見えたなら",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS13201702010000_68/",
+        "title": "膳所くんと長浜さん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS13201707010000_68/",
+        "title": "恋するブキミちゃん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FS01200163010000_68/",
+        "title": "羊角のマジョロミ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_CW01201671010000_68/",
+        "title": "カードファイト！！ ヴァンガードG ストライドジェネレーション",
+      },
+    ],
+    "day": "08/07",
+    "week": "金",
+  },
+  Object {
+    "contents": Array [
+      Object {
+        "href": "/contents/detail/KDCW_KS03000016010000_68/",
+        "title": "機動戦士ガンダム0083　REBELLION",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03000005010000_68/",
+        "title": "機動戦士ガンダムＭＳＶ-Ｒ　ジョニー・ライデンの帰還",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03000020010000_68/",
+        "title": "機動戦士ガンダム外伝 ザ・ブルー・ディスティニー",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03000012010000_68/",
+        "title": "機動戦士Ζガンダム　Ｄｅｆｉｎｅ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03000023010000_68/",
+        "title": "機動戦士クロスボーン・ガンダム DUST",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03000025010000_68/",
+        "title": "機動戦士ガンダム ヴァルプルギス",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03200227010000_68/",
+        "title": "機動戦士ガンダム GROUND ZERO コロニーの落ちた地で -RISE FROM THE
+              ASHES-",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03200315010000_68/",
+        "title": "ガンダムビルドファイターズＡ-Ｒ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03200317010000_68/",
+        "title": "機動戦士ムーンガンダム",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS03200693010000_68/",
+        "title": "機動戦士ガンダム　ＮＴ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000500010000_68/",
+        "title": "豊田さんは悩まない。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01200193010000_68/",
+        "title": "天華百剣 -戯-",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01200674010000_68/",
+        "title": "ペルソナ５　メメントスミッション",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01201102010000_68/",
+        "title": "リビルドワールド",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01201302010000_68/",
+        "title": "押して駄目なら押してみろ！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01201344010000_68/",
+        "title": "多田依さんはホメられない！",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01201471010000_68/",
+        "title": "コーヒームーン",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM01201697010000_68/",
+        "title": "姫神の巫女",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201500010000_68/",
+        "title": "灰の双子は白黒つけずに世界を救います。",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM05201698010000_68/",
+        "title": "q.天上の音楽",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM06000005010000_68/",
+        "title": "ガヴリールドロップアウト",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM06000011010000_68/",
+        "title": "魔法科高校の劣等生 よんこま編",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM06200780010000_68/",
+        "title": "タプリスシュガーステップ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM06201185010000_68/",
+        "title": "もいもいスイスイ",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_AM06201397010000_68/",
+        "title": "最高なあたしの最強なろくでなし攻略法",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_MF00000510010000_68/",
+        "title": "両片想いな双子姉妹",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS12200554010000_68/",
+        "title": "家庭教師のルルーシュさん",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_KS11000027010000_68/",
+        "title": "回復術士のやり直し ～即死魔法とスキルコピーの超越ヒール～",
+      },
+      Object {
+        "href": "/contents/detail/KDCW_FL00201730010000_68/",
+        "title": "貴族から庶民になったので、婚約を解消されました！",
+      },
+    ],
+    "day": "08/08",
+    "week": "土",
+  },
+]
+`;

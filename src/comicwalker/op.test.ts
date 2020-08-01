@@ -1,3 +1,4 @@
+import * as dateMock from "jest-date-mock";
 import { enableFetchMocks } from "jest-fetch-mock";
 
 import mockSnapshot from "./__snapshots__/calendar.html.js";
@@ -8,6 +9,7 @@ import {
   getJSDOM,
   getTableRaw,
   combineRawData,
+  fetchComicReleases,
 } from "./op";
 
 describe("fetch", () => {
@@ -15,9 +17,11 @@ describe("fetch", () => {
     enableFetchMocks();
   });
   beforeEach(() => {
+    dateMock.advanceTo(new Date(2020, 7, 2));
     fetchMock.mockResponse(async () => mockSnapshot);
   });
   afterEach(() => {
+    dateMock.clear();
     fetchMock.resetMocks();
   });
   test("mockされたHTMLが正しいものかチェック", async () => {
@@ -51,6 +55,9 @@ describe("fetch", () => {
     });
   });
   test("結合結果", async () => {
-    expect(combineRawData()).toMatchSnapshot();
+    expect(await combineRawData()).toMatchSnapshot();
+  });
+  test("変換後", async () => {
+    expect(await fetchComicReleases()).toMatchSnapshot();
   });
 });

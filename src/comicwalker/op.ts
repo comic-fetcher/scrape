@@ -1,6 +1,10 @@
 import { JSDOM } from "jsdom";
 
 import { fetchFromCalendarContents } from "./dom";
+import { parseRawData } from "./parse";
+import { ComicWalkerRawData, ComicWalkerComicReleaseData } from "./types";
+
+import { concatReleases } from ".";
 
 export async function getJSDOM() {
   const res = await fetch("https://comic-walker.com/contents/calendar/");
@@ -31,17 +35,6 @@ export function fetchCalendarContents(
   );
 }
 
-export type ComicWalkerRawDataContent = {
-  title: string;
-  href: string;
-};
-
-export type ComicWalkerRawData = {
-  day: string;
-  week: string;
-  contents: ComicWalkerRawDataContent[];
-};
-
 export async function combineRawData(): Promise<ComicWalkerRawData[]> {
   const jsdom = await getJSDOM();
   const tr = await getTableRaw(jsdom);
@@ -51,4 +44,14 @@ export async function combineRawData(): Promise<ComicWalkerRawData[]> {
     contents: fetchFromCalendarContents(t),
   }));
   return combined;
+}
+
+export async function fetchComicReleases(): Promise<
+  ComicWalkerComicReleaseData[]
+> {
+  const nowYear = new Date().getFullYear();
+  const raw = await combineRawData();
+
+  const c = raw.map((r) => parseRawData(r, nowYear));
+  return concatReleases(c);
 }

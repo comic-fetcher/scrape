@@ -5,5 +5,8 @@
 /coverage
 /.nyc_output
 
+# Snapshots
+__snapshots__
+
 # Docker Volumes
 /volumes

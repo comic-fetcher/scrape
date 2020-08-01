@@ -1,8 +1,26 @@
 import { estimateFullDate, separateStringToMonthAndDate } from "./date/day";
 import { getWeekNumberFromJapanese } from "./date/week";
 import { ComicWalkerComicReleaseData, ComicWalkerRawData } from "./types";
+import { combineLinkAndId } from "./utils/link";
 
-import { createRelease } from ".";
+export function createRelease(
+  title: string,
+  href: string,
+  date: Date,
+): ComicWalkerComicReleaseData {
+  const { link, id } = combineLinkAndId(href);
+  return [
+    id,
+    {
+      date,
+      detail: {
+        link,
+        title,
+        platform: "ComicWalker",
+      },
+    },
+  ];
+}
 
 export function parseRawData(
   raw: ComicWalkerRawData,

@@ -1,54 +1,55 @@
-import { estimateFullDate, separateStringToMonthAndDate } from "./date/day";
-import { getWeekNumberFromJapanese } from "./date/week";
-import { uncertain } from "./dom";
-import { ComicWalkerComicReleaseData } from "./types";
-import { combineLinkAndId } from "./utils/link";
+import { JSDOM } from "jsdom";
+import { concat } from "lodash";
 
-export function createRelease(
-  title: string,
-  href: string,
-  date: Date,
-): ComicWalkerComicReleaseData {
-  const { link, id } = combineLinkAndId(href);
-  return [
-    id,
-    {
-      date,
-      detail: {
-        link,
-        title,
-        platform: "ComicWalker",
-      },
-    },
-  ];
+import { parseRawData } from "./parse";
+import { ComicWalkerComicReleaseData, ComicWalkerRawData } from "./types";
+
+export async function getJSDOM() {
+  const res = await fetch("https://comic-walker.com/contents/calendar/");
+  const html = await res.text();
+  return new JSDOM(html);
 }
 
-export function parse(
-  dateString: string,
-  weekString: string,
-  contents: { title: string; href: string }[],
-  startYear: number,
-): ComicWalkerComicReleaseData[] {
-  const { month, day } = separateStringToMonthAndDate(dateString);
-  const date = estimateFullDate(
-    startYear,
-    month,
-    day,
-    getWeekNumberFromJapanese(weekString),
-  );
-  const releases = contents.map(({ title, href }) =>
-    createRelease(title, href, date),
-  );
-  return releases;
+export async function getTableRaw(dom: JSDOM) {
+  return Array.from(dom.window.document.querySelectorAll(".calenderTable tr"));
 }
 
-export async function fetchComics(): Promise<ComicWalkerComicReleaseData[]> {
-  const uncertains = await uncertain();
-  const startYear = new Date().getFullYear();
-  const releasesMappings = uncertains.map(({ date, contents, week }) =>
-    parse(date, week, contents, startYear),
-  );
-  return concatReleases(releasesMappings);
+export function fetchCalendarDay(tr: Element): string {
+  return tr.querySelector(".calenderDay").textContent;
 }
 
-export default fetchComics;
+export function fetchCalendarWeek(tr: Element): string {
+  return tr.querySelector(".calenderWeek").textContent;
+}
+
+export function fetchCalendarContents(
+  $tr: Element,
+): { title: string; href: string }[] {
+  return Array.from($tr.querySelectorAll(".calenderContent p > a")).map(
+    (node) => ({
+      title: node.textContent,
+      href: node.getAttribute("href"),
+    }),
+  );
+}
+
+export async function combineRawData(): Promise<ComicWalkerRawData[]> {
+  const jsdom = await getJSDOM();
+  const tr = await getTableRaw(jsdom);
+  const combined = await tr.map((t) => ({
+    day: fetchCalendarDay(t),
+    week: fetchCalendarWeek(t),
+    contents: fetchCalendarContents(t),
+  }));
+  return combined;
+}
+
+export async function fetchComicReleases(): Promise<
+  ComicWalkerComicReleaseData[]
+> {
+  const nowYear = new Date().getFullYear();
+  const raw = await combineRawData();
+
+  const c = raw.map((r) => parseRawData(r, nowYear));
+  return concat(...c);
+}

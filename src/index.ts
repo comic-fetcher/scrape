@@ -1,4 +1,4 @@
-import comicwalker from "./comicwalker";
+import { fetchComicReleases as comicwalker } from "./comicwalker";
 import { sendDB } from "./db";
 
 (async () => {

@@ -1,133 +1,64 @@
-import { createRelease, parse } from ".";
+import * as dateMock from "jest-date-mock";
+import { enableFetchMocks } from "jest-fetch-mock";
 
-test("低レベルな生データを更新オブジェクトに変換", () => {
-  const date = new Date(2020, 6, 26);
-  expect(
-    createRelease(
-      "東方酔蝶華　 ロータスイーター達の酔醒",
-      "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-      date,
-    ),
-  ).toEqual([
-    "KDCW_KS04201360010000_68",
-    {
-      date,
-      detail: {
-        title: "東方酔蝶華　 ロータスイーター達の酔醒",
-        link:
-          "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-        platform: "ComicWalker",
-      },
-    },
-  ]);
-});
+import mockSnapshot from "./__snapshots__/calendar.html.js";
 
-describe("ComicWalkerのデータを変換する", () => {
-  test("今年の一つの更新を変換する", () => {
-    const date = new Date(2020, 6, 26);
-    expect(
-      parse(
-        "07/26",
-        "日",
-        [
-          {
-            title: "東方酔蝶華　 ロータスイーター達の酔醒",
-            href:
-              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-          },
-        ],
-        2020,
-      ),
-    ).toEqual([
-      [
-        "KDCW_KS04201360010000_68",
-        {
-          date,
-          detail: {
-            title: "東方酔蝶華　 ロータスイーター達の酔醒",
-            link:
-              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-            platform: "ComicWalker",
-          },
-        },
-      ],
-    ]);
+import {
+  combineRawData,
+  fetchCalendarContents,
+  fetchCalendarDay,
+  fetchCalendarWeek,
+  fetchComicReleases,
+  getJSDOM,
+  getTableRaw,
+} from ".";
+
+describe("fetch", () => {
+  beforeAll(() => {
+    enableFetchMocks();
   });
-  test("来年の更新の更新を変換する", () => {
-    const date = new Date(2021, 0, 1);
-    expect(
-      parse(
-        "01/01",
-        "金",
-        [
-          {
-            title: "東方酔蝶華　 ロータスイーター達の酔醒",
-            href:
-              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-          },
-        ],
-        2020,
-      ),
-    ).toEqual([
-      [
-        "KDCW_KS04201360010000_68",
-        {
-          date,
-          detail: {
-            title: "東方酔蝶華　 ロータスイーター達の酔醒",
-            link:
-              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-            platform: "ComicWalker",
-          },
-        },
-      ],
-    ]);
+  beforeEach(() => {
+    dateMock.advanceTo(new Date(2020, 7, 2));
+    fetchMock.mockResponse(async () => mockSnapshot);
   });
-  test("今年の複数の更新を変換する", () => {
-    const date = new Date(2020, 6, 26);
-    expect(
-      parse(
-        "07/26",
-        "日",
-        [
-          {
-            title: "東方酔蝶華　 ロータスイーター達の酔醒",
-            href:
-              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-          },
-          {
-            title: "人間たちの幻想郷",
-            href:
-              "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
-          },
-        ],
-        2020,
-      ),
-    ).toEqual([
-      [
-        "KDCW_KS04201360010000_68",
-        {
-          date,
-          detail: {
-            title: "東方酔蝶華　 ロータスイーター達の酔醒",
-            link:
-              "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
-            platform: "ComicWalker",
-          },
-        },
-      ],
-      [
-        "KDCW_AM21201313010000_68",
-        {
-          date,
-          detail: {
-            title: "人間たちの幻想郷",
-            link:
-              "https://comic-walker.com/contents/detail/KDCW_AM21201313010000_68/",
-            platform: "ComicWalker",
-          },
-        },
-      ],
-    ]);
+  afterEach(() => {
+    dateMock.clear();
+    fetchMock.resetMocks();
+  });
+  test("mockされたHTMLが正しいものかチェック", async () => {
+    const dom = await getJSDOM();
+    expect(dom.serialize()).toMatchSnapshot();
+  });
+  test("tr要素の整合性", async () => {
+    const dom = await getJSDOM();
+    const tr = await getTableRaw(dom);
+    expect(tr).toMatchSnapshot();
+  });
+  test("日付の生文字列", async () => {
+    const dom = await getJSDOM();
+    const tr = await getTableRaw(dom);
+    tr.forEach((t) => {
+      expect(fetchCalendarDay(t)).toMatchSnapshot();
+    });
+  });
+  test("曜日の生文字列", async () => {
+    const dom = await getJSDOM();
+    const tr = await getTableRaw(dom);
+    tr.forEach((t) => {
+      expect(fetchCalendarWeek(t)).toMatchSnapshot();
+    });
+  });
+  test("コンテンツの生文字列", async () => {
+    const dom = await getJSDOM();
+    const tr = await getTableRaw(dom);
+    tr.forEach((t) => {
+      expect(fetchCalendarContents(t)).toMatchSnapshot();
+    });
+  });
+  test("結合結果", async () => {
+    expect(await combineRawData()).toMatchSnapshot();
+  });
+  test("変換後", async () => {
+    expect(await fetchComicReleases()).toMatchSnapshot();
   });
 });

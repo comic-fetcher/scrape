@@ -1,4 +1,4 @@
-import { parseRawData } from "./parse";
+import { parseRawData, createRelease } from "./parse";
 
 test("parseRawData", () => {
   expect(
@@ -63,5 +63,27 @@ test("parseRawData", () => {
         },
       },
     ],
+  ]);
+});
+
+test("createRelease", () => {
+  const date = new Date(2020, 6, 26);
+  expect(
+    createRelease(
+      "東方酔蝶華　 ロータスイーター達の酔醒",
+      "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+      date,
+    ),
+  ).toEqual([
+    "KDCW_KS04201360010000_68",
+    {
+      date,
+      detail: {
+        title: "東方酔蝶華　 ロータスイーター達の酔醒",
+        link:
+          "https://comic-walker.com/contents/detail/KDCW_KS04201360010000_68/",
+        platform: "ComicWalker",
+      },
+    },
   ]);
 });

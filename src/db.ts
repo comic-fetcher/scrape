@@ -1,48 +1,10 @@
 import "reflect-metadata";
 import { Connection, createConnection, InsertQueryBuilder } from "typeorm";
 
-import { Comic, ComicPlatform } from "./typeorm/entities/comic";
+import { extractComics, extractReleases } from "./database/extract";
+import { Comic } from "./typeorm/entities/comic";
 import { Release } from "./typeorm/entities/release";
-import { ComicReleaseData, RequiredDetail } from "./types";
-
-export function getPlatformEnum(
-  platform: RequiredDetail["platform"],
-): ComicPlatform {
-  switch (platform) {
-    case "ComicWalker":
-      return ComicPlatform.COMIC_WALKER;
-    default:
-      throw new Error("Illegal platform");
-  }
-}
-
-export function extractComic([id, { detail }]: ComicReleaseData) {
-  return {
-    id,
-    ...detail,
-    platform: getPlatformEnum(detail.platform),
-  };
-}
-
-export function extractComics(
-  data: ComicReleaseData[],
-): ReturnType<typeof extractComic>[] {
-  return data.map((d) => extractComic(d));
-}
-
-export function extractRelease([id, { date }]: ComicReleaseData) {
-  return {
-    id: `${id}_${date.getTime()}`,
-    comic: { id },
-    date,
-  };
-}
-
-export function extractReleases(
-  data: ComicReleaseData[],
-): ReturnType<typeof extractRelease>[] {
-  return data.map((d) => extractRelease(d));
-}
+import { ComicReleaseData } from "./types";
 
 export async function storeComics(
   connection: Connection,

@@ -1,19 +1,8 @@
-import { extractRelease, getPlatformEnum, extractComic } from "./db";
-import { ComicPlatform } from "./typeorm/entities/comic";
+import { ComicPlatform } from "../typeorm/entities/comic";
 
-describe("文字列からプラットフォームのenumを返す", () => {
-  test("ComicWalker", () => {
-    expect(getPlatformEnum("ComicWalker")).toBe(ComicPlatform.COMIC_WALKER);
-  });
-  test("それ以外は例外を投げる", () => {
-    expect(() => {
-      // @ts-expect-error Aというプラットフォームは存在しないので
-      getPlatformEnum("A");
-    }).toThrow();
-  });
-});
+import { extractComic, extractRelease } from "./extract";
 
-test("Comicをデータベースに保存する形式に変換", () => {
+test("ComicReleaseDataから詳細部分を抽出したデータベース保存形式に変換", () => {
   expect(
     extractComic([
       "KDCW_KS04201360010000_68",
@@ -35,7 +24,7 @@ test("Comicをデータベースに保存する形式に変換", () => {
   });
 });
 
-test("ComicReleaseから更新日を抽出してデータベース保存形式に変換", () => {
+test("ComicReleaseDataから更新部分を抽出したデータベース保存形式に変換", () => {
   expect(
     extractRelease([
       "KDCW_KS04201360010000_68",

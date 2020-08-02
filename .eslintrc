@@ -61,7 +61,7 @@
       }
     },
     {
-      "files": ["**/*.test.ts", "**/*.test.js"],
+      "files": ["**/*.test.{js,ts}", "test/**/*.{js,ts}"],
       "extends": ["plugin:jest/recommended"],
       "rules": {
         "import/no-extraneous-dependencies": [

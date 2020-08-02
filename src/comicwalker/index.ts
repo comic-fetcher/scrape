@@ -1,5 +1,6 @@
 import { JSDOM } from "jsdom";
 import { concat } from "lodash";
+import fetch from "node-fetch";
 
 import { parseRawData } from "./parse";
 import { ComicWalkerComicReleaseData, ComicWalkerRawData } from "./types";

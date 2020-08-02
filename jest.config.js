@@ -4,7 +4,9 @@ module.exports = {
   transform: {
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
-  setupFiles: ["jest-date-mock"],
+  setupFiles: ["jest-date-mock", "./test/setup/fetch.js"],
+
+  testEnvironment: "node",
 
   coverageDirectory: "./coverage",
   collectCoverage: true,

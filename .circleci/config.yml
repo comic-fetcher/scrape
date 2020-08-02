@@ -6,6 +6,8 @@ orbs:
 
 jobs:
   test:
+    environment:
+      TZ: "Asia/Tokyo"
     executor:
       name: node/default
     steps:

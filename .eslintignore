@@ -5,6 +5,9 @@
 /coverage
 /.nyc_output
 
+# Reports
+reports/
+
 # Snapshots
 __snapshots__
 

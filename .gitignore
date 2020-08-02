@@ -12,6 +12,9 @@ logs
 /coverage
 /.nyc_output
 
+# Reports
+reports/
+
 # Docker Volumes
 /volumes
 

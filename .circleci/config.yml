@@ -18,8 +18,21 @@ jobs:
             - run: yarn test
             - codecov/upload:
                 file: ./coverage/lcov.info
+  lint:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: yarn install --frozen-lockfile
+            - run: yarn lint:prettier
+            - run: yarn lint:eslint --format junit --output-file ./reports/eslint.xml
+            - store_test_results:
+                path: ./reports
 workflows:
   version: 2
   main:
     jobs:
       - test
+      - lint

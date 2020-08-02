@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  cf-mysql:
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+  cf-phpmyadmin:
+    container_name: cf-phpmyadmin-local
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: cf-mysql
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      PMA_USER: ${DB_USER}
+      PMA_PASSWORD: ${DB_PASSWORD}
+    depends_on:
+      - cf-mysql
+    ports:
+      - 8080:80
+    networks:
+      - cf-network

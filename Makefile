@@ -4,11 +4,13 @@ ENV_LOCAL = $(shell cat $(ENV_LOCAL_FILE))
 .PHONY: run-db-local
 run-db-local:
 	$(ENV_LOCAL) docker-compose \
-    -f docker/docker-compose.local.yml \
+    -f docker/docker-compose.deps.base.yml \
+    -f docker/docker-compose.deps.local.yml \
     -p local up -d
 
 .PHONY: stop-db-local
 stop-db-local:
 	$(ENV_LOCAL) docker-compose \
-    -f docker/docker-compose.local.yml \
-    down
+    -f docker/docker-compose.deps.base.yml \
+    -f docker/docker-compose.deps.local.yml \
+    -p local down

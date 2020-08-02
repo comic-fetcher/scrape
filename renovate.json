@@ -1,4 +1,11 @@
 {
   "extends": ["config:base", ":label(Renovate)", ":timezone(Asia/Tokyo)"],
-  "baseBranches": ["develop"]
+  "baseBranches": ["develop"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "npm": {
+    "extends": [":automergePatch", ":automergeTypes"],
+    "postUpdateOptions": ["yarnDedupeHighest"]
+  }
 }

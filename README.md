@@ -1,3 +1,8 @@
+## Housekeeping
+
+[![CircleCI](https://circleci.com/gh/comic-fetcher/scrape.svg?style=svg)](https://circleci.com/gh/comic-fetcher/scrape)
+[![codecov](https://codecov.io/gh/comic-fetcher/scrape/branch/develop/graph/badge.svg)](https://codecov.io/gh/comic-fetcher/scrape)
+
 ## Setup
 
 ### Snapshot

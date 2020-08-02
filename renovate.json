@@ -1,5 +1,10 @@
 {
-  "extends": ["config:base", ":label(Renovate)", ":timezone(Asia/Tokyo)"],
+  "extends": [
+    "config:base",
+    ":label(Renovate)",
+    ":timezone(Asia/Tokyo)",
+    "schedule:weekly"
+  ],
   "baseBranches": ["develop"],
   "lockFileMaintenance": {
     "enabled": true

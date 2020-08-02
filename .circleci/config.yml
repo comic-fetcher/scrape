@@ -16,7 +16,8 @@ jobs:
           steps:
             - run: yarn install --frozen-lockfile
             - run: yarn test
-
+            - codecov/upload:
+                file: ./coverage/lcov.info
 workflows:
   version: 2
   main:

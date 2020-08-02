@@ -1,5 +1,4 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base", ":label(Renovate)", ":timezone(Asia/Tokyo)"],
+  "baseBranches": ["develop"]
 }

@@ -6,11 +6,12 @@
     ".huskyrc": "jsonc",
     ".lintstagedrc": "jsonc",
     ".babelrc": "jsonc",
+    ".renovaterc": "jsonc",
     ".*ignore": "ignore"
   },
   "json.schemas": [
     {
-      "fileMatch": [".renovaterc"],
+      "fileMatch": [".renovaterc", "renovate.json"],
       "url": "https://docs.renovatebot.com/renovate-schema.json"
     }
   ],

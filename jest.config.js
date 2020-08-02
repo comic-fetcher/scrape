@@ -5,4 +5,7 @@ module.exports = {
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
   setupFiles: ["jest-date-mock"],
+
+  coverageDirectory: "./coverage",
+  collectCoverage: true,
 };

@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  cf-mysql:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+      MYSQL_DATABASE: db
+    volumes:
+      - cf-mysql-data:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - 3306:3306
+    networks:
+      - cf-network
+  cf-phpmyadmin:
+    container_name: cf-phpmyadmin-local
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: cf-mysql
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+    depends_on:
+      - cf-mysql
+    ports:
+      - 8080:80
+    networks:
+      - cf-network
+
+volumes:
+  cf-mysql-data:
+
+networks:
+  cf-network:
+    driver: bridge

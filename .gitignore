@@ -19,9 +19,7 @@ reports/
 /volumes
 
 # Environment Variables
-.env*
 .env
-!.env.example
 
 # IDEs and editors
 /.idea

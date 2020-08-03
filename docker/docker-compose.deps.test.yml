@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  cf-mysql:
+    container_name: cf-mysql-test
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"

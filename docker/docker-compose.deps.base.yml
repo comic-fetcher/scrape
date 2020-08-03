@@ -2,9 +2,7 @@ version: "3.7"
 
 services:
   cf-mysql:
-    container_name: cf-mysql-local
     image: mysql:5.7
-    restart: always
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
       MYSQL_USER: ${DB_USER}

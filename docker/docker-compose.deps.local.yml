@@ -2,12 +2,12 @@ version: "3.7"
 
 services:
   cf-mysql:
+    container_name: cf-mysql-local
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
   cf-phpmyadmin:
     container_name: cf-phpmyadmin-local
     image: phpmyadmin/phpmyadmin
-    restart: always
     environment:
       PMA_HOST: cf-mysql
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}

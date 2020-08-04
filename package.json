@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "start": "ts-node src/index.ts",
-    "test": "jest",
+    "test": "env-cmd -f .env.test jest",
     "lint": "run-s -cn lint:*",
     "lint:eslint": "eslint . --ext .js,.ts",
     "lint:prettier": "prettier --check *.{json,yml,yaml,md}",
@@ -35,6 +35,7 @@
     "@types/node-fetch": "2.5.7",
     "@typescript-eslint/eslint-plugin": "3.7.1",
     "@typescript-eslint/parser": "3.7.1",
+    "env-cmd": "^10.1.0",
     "eslint": "7.6.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.11.0",

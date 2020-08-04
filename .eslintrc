@@ -61,6 +61,17 @@
       }
     },
     {
+      "files": ["**/*.factory.{js,ts}", "factories/**/*.{js,ts}"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          2,
+          {
+            "devDependencies": true
+          }
+        ]
+      }
+    },
+    {
       "files": ["**/*.test.{js,ts}", "test/**/*.{js,ts}"],
       "extends": ["plugin:jest/recommended"],
       "rules": {

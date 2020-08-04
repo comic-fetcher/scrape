@@ -1,9 +1,13 @@
+import { report } from "process";
+
 import { createConnection, getConnection } from "typeorm";
 
+import { comicFactory } from "../comicwalker/factories/comic.factory";
+import { storeComics } from "../db";
 import { Comic } from "../typeorm/entities/comic";
 import { Release } from "../typeorm/entities/release";
 
-describe("test", () => {
+describe("データベースでの実際の挙動の確認", () => {
   beforeAll(async () => {
     await createConnection({
       name: "test",
@@ -28,5 +32,29 @@ describe("test", () => {
   });
   afterAll(async () => {
     await getConnection("test").close();
+  });
+
+  test("重複なしで，10個のマンガを登録する", async () => {
+    const connection = getConnection("test");
+
+    const repo = connection.getRepository(Comic);
+    const comics = comicFactory.buildList(10);
+    await storeComics(connection, comics);
+
+    expect(await repo.count()).toBe(10);
+  });
+
+  test("重複10個で，30個のマンガを登録する", async () => {
+    const connection = getConnection("test");
+
+    const repo = connection.getRepository(Comic);
+    const comics1 = comicFactory.buildList(10);
+    await storeComics(connection, comics1);
+
+    comicFactory.resetSequenceNumber();
+    const comics2 = comicFactory.buildList(30);
+    await storeComics(connection, comics2);
+
+    expect(await repo.count()).toBe(30);
   });
 });

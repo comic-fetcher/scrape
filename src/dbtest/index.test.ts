@@ -1,5 +1,8 @@
 import { createConnection, getConnection } from "typeorm";
 
+import { Comic } from "../typeorm/entities/comic";
+import { Release } from "../typeorm/entities/release";
+
 describe("test", () => {
   beforeAll(async () => {
     await createConnection({
@@ -10,6 +13,8 @@ describe("test", () => {
       database: process.env.DB_DATABASE,
       username: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
+      synchronize: true,
+      entities: [Comic, Release],
     });
   });
   afterEach(async () => {
@@ -21,6 +26,6 @@ describe("test", () => {
     );
   });
   afterAll(async () => {
-    await getConnection().close();
+    await getConnection("test").close();
   });
 });

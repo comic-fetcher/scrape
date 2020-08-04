@@ -19,11 +19,12 @@ describe("test", () => {
   });
   afterEach(async () => {
     const connection = getConnection("test");
-    await Promise.all(
-      connection.entityMetadatas.map(
-        (entity) => connection.getRepository(entity.name).clear,
-      ),
-    );
+    // eslint-disable-next-line no-restricted-syntax
+    for (const entity of connection.entityMetadatas) {
+      const repository = connection.getRepository(entity.name);
+      // eslint-disable-next-line no-await-in-loop
+      await repository.query(`DELETE FROM comic`);
+    }
   });
   afterAll(async () => {
     await getConnection("test").close();

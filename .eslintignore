@@ -8,6 +8,9 @@
 # Reports
 reports/
 
+# Output
+dist/
+
 # Snapshots
 __snapshots__
 

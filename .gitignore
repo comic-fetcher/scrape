@@ -15,6 +15,9 @@ logs
 # Reports
 reports/
 
+# Output
+dist/
+
 # Docker Volumes
 /volumes
 

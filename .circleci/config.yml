@@ -33,10 +33,10 @@ jobs:
           pkg-manager: yarn
       - run:
           command: |
-            yarn jest
-              --ci --runInBand
-              --collectCoverage --coverageDirectory=$JEST_COVERAGE_DIR
-              --reporters=default --reporters=jest-junit
+            yarn jest \
+              --ci --runInBand \
+              --collectCoverage --coverageDirectory=$JEST_COVERAGE_DIR \
+              --reporters=default --reporters=jest-junit \
               --testResultsProcessor=jest-junit
           environment:
             JEST_COVERAGE_DIR: reports/coverage/jest

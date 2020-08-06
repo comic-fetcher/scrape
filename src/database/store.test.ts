@@ -1,9 +1,10 @@
 import { createConnection, getConnection } from "typeorm";
 
-import { comicFactory } from "../comicwalker/factories/comic.factory";
-import entities, { Comic } from "../typeorm/entities";
+import entities, { Comic, Release } from "../typeorm/entities";
 
-import { storeComics } from "./store";
+import { comicwalkerComicFactory } from "./factories/comic.factory";
+import { releaseFactory } from "./factories/release.factory";
+import { storeComics, storeReleases } from "./store";
 
 describe("データベースでの実際の挙動の確認", () => {
   beforeAll(async () => {
@@ -19,11 +20,13 @@ describe("データベースでの実際の挙動の確認", () => {
       entities,
     });
   });
+
   afterEach(async () => {
     const connection = getConnection("test");
     await connection.dropDatabase();
     await connection.synchronize();
   });
+
   afterAll(async () => {
     await getConnection("test").close();
   });
@@ -32,7 +35,7 @@ describe("データベースでの実際の挙動の確認", () => {
     const connection = getConnection("test");
 
     const repo = connection.getRepository(Comic);
-    const comics = comicFactory.buildList(10);
+    const comics = comicwalkerComicFactory.buildList(10);
     await storeComics(connection, comics);
 
     expect(await repo.count()).toBe(10);
@@ -42,13 +45,60 @@ describe("データベースでの実際の挙動の確認", () => {
     const connection = getConnection("test");
 
     const repo = connection.getRepository(Comic);
-    const comics1 = comicFactory.buildList(10);
+    const comics1 = comicwalkerComicFactory.buildList(10);
     await storeComics(connection, comics1);
 
-    comicFactory.resetSequenceNumber();
-    const comics2 = comicFactory.buildList(30);
+    comicwalkerComicFactory.resetSequenceNumber();
+    const comics2 = comicwalkerComicFactory.buildList(30);
     await storeComics(connection, comics2);
 
     expect(await repo.count()).toBe(30);
+  });
+
+  test("マンガリリースを1件登録する", async () => {
+    const connection = getConnection("test");
+
+    const comicRepo = connection.getRepository(Comic);
+    const releaseRepo = connection.getRepository(Release);
+
+    const comic = comicwalkerComicFactory.build();
+    await comicRepo.save(comic);
+
+    await storeReleases(connection, [
+      releaseFactory(comic, new Date(2020, 0, 1)),
+    ]);
+    expect(await releaseRepo.count()).toBe(1);
+  });
+
+  test("別の日付のマンガリリースを2件登録する", async () => {
+    const connection = getConnection("test");
+
+    const comicRepo = connection.getRepository(Comic);
+    const releaseRepo = connection.getRepository(Release);
+
+    const comic = comicwalkerComicFactory.build();
+    await comicRepo.save(comic);
+
+    await storeReleases(connection, [
+      releaseFactory(comic, new Date(2020, 0, 1)),
+      releaseFactory(comic, new Date(2020, 0, 2)),
+    ]);
+    expect(await releaseRepo.count()).toBe(2);
+  });
+
+  test("同じ日付のマンガリリースを2件登録して，1件だけ残る", async () => {
+    const connection = getConnection("test");
+
+    const comicRepo = connection.getRepository(Comic);
+    const releaseRepo = connection.getRepository(Release);
+
+    const comic = comicwalkerComicFactory.build();
+    await comicRepo.save(comic);
+
+    await storeReleases(connection, [
+      releaseFactory(comic, new Date(2020, 0, 1)),
+      releaseFactory(comic, new Date(2020, 0, 1)),
+    ]);
+    expect(await releaseRepo.count()).toBe(1);
   });
 });

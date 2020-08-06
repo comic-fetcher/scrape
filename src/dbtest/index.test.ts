@@ -1,11 +1,8 @@
-import { report } from "process";
-
 import { createConnection, getConnection } from "typeorm";
 
 import { comicFactory } from "../comicwalker/factories/comic.factory";
 import { storeComics } from "../db";
-import { Comic } from "../typeorm/entities/comic";
-import { Release } from "../typeorm/entities/release";
+import entities, { Comic } from "../typeorm/entities";
 
 describe("データベースでの実際の挙動の確認", () => {
   beforeAll(async () => {
@@ -18,7 +15,7 @@ describe("データベースでの実際の挙動の確認", () => {
       username: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
       synchronize: true,
-      entities: [Comic, Release],
+      entities,
     });
   });
   afterEach(async () => {

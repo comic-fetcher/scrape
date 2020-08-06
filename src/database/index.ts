@@ -9,7 +9,7 @@ import { storeComics, storeReleases } from "./store";
 
 export function getConnection(): Promise<Connection> {
   return createConnection({
-    type: "mysql",
+    type: "postgres",
     host: process.env.DB_HOST,
     port: parseInt(process.env.DB_PORT, 10),
     database: process.env.DB_DATABASE,

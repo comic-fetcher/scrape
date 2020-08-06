@@ -10,7 +10,7 @@ describe("データベースでの実際の挙動の確認", () => {
   beforeAll(async () => {
     await createConnection({
       name: "test",
-      type: "mysql",
+      type: "postgres",
       host: process.env.DB_HOST,
       port: parseInt(process.env.DB_PORT, 10),
       database: process.env.DB_DATABASE,

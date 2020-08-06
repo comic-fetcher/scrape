@@ -16,6 +16,6 @@ export class Release {
   @ManyToOne((type) => Comic, (comic) => comic.releases)
   comic!: Comic;
 
-  @Column("datetime")
+  @Column("date")
   date!: Date;
 }

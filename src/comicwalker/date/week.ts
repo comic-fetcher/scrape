@@ -1,6 +1,4 @@
-export function getWeekNumberFromJapanese(
-  ja: string,
-): 0 | 1 | 2 | 3 | 4 | 5 | 6 {
+export function getDayFromJapaneseKanji(ja: string) {
   switch (ja) {
     case "日":
       return 0;
@@ -17,6 +15,6 @@ export function getWeekNumberFromJapanese(
     case "土":
       return 6;
     default:
-      throw new Error("Illegal day");
+      return null;
   }
 }

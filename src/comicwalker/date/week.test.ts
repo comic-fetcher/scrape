@@ -1,30 +1,28 @@
-import { getWeekNumberFromJapanese } from "./week";
+import { getDayFromJapaneseKanji } from "./week";
 
-describe("日本語の曜日から数値へ変換", () => {
+describe("日本語の漢字から曜日の数値へ変換", () => {
   test("日は0", () => {
-    expect(getWeekNumberFromJapanese("日")).toBe(0);
+    expect(getDayFromJapaneseKanji("日")).toBe(0);
   });
   test("月は1", () => {
-    expect(getWeekNumberFromJapanese("月")).toBe(1);
+    expect(getDayFromJapaneseKanji("月")).toBe(1);
   });
   test("火は2", () => {
-    expect(getWeekNumberFromJapanese("火")).toBe(2);
+    expect(getDayFromJapaneseKanji("火")).toBe(2);
   });
   test("水は3", () => {
-    expect(getWeekNumberFromJapanese("水")).toBe(3);
+    expect(getDayFromJapaneseKanji("水")).toBe(3);
   });
   test("木は4", () => {
-    expect(getWeekNumberFromJapanese("木")).toBe(4);
+    expect(getDayFromJapaneseKanji("木")).toBe(4);
   });
   test("金は5", () => {
-    expect(getWeekNumberFromJapanese("金")).toBe(5);
+    expect(getDayFromJapaneseKanji("金")).toBe(5);
   });
   test("土は6", () => {
-    expect(getWeekNumberFromJapanese("土")).toBe(6);
+    expect(getDayFromJapaneseKanji("土")).toBe(6);
   });
-  test("それ以外は例外を返す", () => {
-    expect(() => {
-      getWeekNumberFromJapanese("冥");
-    }).toThrow();
+  test("それ以外はnullを返す", () => {
+    expect(getDayFromJapaneseKanji("冥")).toBeNull();
   });
 });

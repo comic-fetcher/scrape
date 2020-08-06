@@ -1,4 +1,4 @@
-import { getWeekNumberFromJapanese } from "./week";
+import { getDayFromJapaneseKanji } from "./week";
 
 export function separateStringToMonthAndDate(
   text: string,
@@ -20,7 +20,7 @@ export function estimateFullDate(
   estimatedYear: number,
   month: number,
   date: number,
-  day: ReturnType<typeof getWeekNumberFromJapanese>,
+  day: ReturnType<typeof getDayFromJapaneseKanji>,
 ): Date {
   const estimated = new Date(estimatedYear, month, date);
   return estimated.getDay() === day

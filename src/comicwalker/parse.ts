@@ -1,5 +1,5 @@
 import { estimateFullDate, separateStringToMonthAndDate } from "./date/day";
-import { getWeekNumberFromJapanese } from "./date/week";
+import { getDayFromJapaneseKanji } from "./date/week";
 import { ComicWalkerComicReleaseData, ComicWalkerRawData } from "./types";
 import { combineLinkAndId } from "./utils/link";
 
@@ -27,7 +27,8 @@ export function parseRawData(
   year: number,
 ): ComicWalkerComicReleaseData[] {
   const { month, day } = separateStringToMonthAndDate(raw.day);
-  const week = getWeekNumberFromJapanese(raw.week);
+  const week = getDayFromJapaneseKanji(raw.week);
+  if (week === null) throw new Error(`無効な曜日 : ${raw.week}`);
   const D = estimateFullDate(year, month, day, week);
 
   const releases = raw.contents.map(({ title, href }) =>

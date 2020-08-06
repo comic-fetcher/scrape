@@ -10,12 +10,13 @@
     "dev": "ts-node src/index.ts",
     "start": "ts-node src/index.ts",
     "test": "env-cmd -f .env.test jest",
+    "test:cov": "yarn test --collectCoverage --coverageDirectory=reports/coverage/jest",
     "lint": "run-s -cn lint:*",
     "lint:eslint": "eslint . --ext .js,.ts",
     "lint:prettier": "prettier --check *.{json,yml,yaml,md}",
     "fmt": "run-s -cn fmt:*",
-    "fmt:eslint": "npm run lint:eslint -- --fix",
-    "fmt:prettier": "npm run lint:prettier -- --write"
+    "fmt:eslint": "yarn lint:eslint --fix",
+    "fmt:prettier": "yarn lint:prettier --write"
   },
   "dependencies": {
     "date-fns": "2.15.0",

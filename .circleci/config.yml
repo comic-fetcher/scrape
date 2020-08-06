@@ -10,27 +10,22 @@ jobs:
     environment:
       TZ: "Asia/Tokyo"
       DB_HOST: "localhost"
-      DB_PORT: 3306
+      DB_PORT: 5432
       DB_DATABASE: "test"
       DB_USER: "test"
       DB_PASSWORD: "test"
     docker:
       - image: cimg/node:12.18
-      - image: circleci/mysql:5.7-ram
+      - image: circleci/postgres:12-alpine-ram
         environment:
-          MYSQL_DATABASE: "test"
-          MYSQL_USER: "test"
-          MYSQL_PASSWORD: "test"
-        command:
-          [
-            "--character-set-server=utf8mb4",
-            "--collation-server=utf8mb4_unicode_ci",
-          ]
+          POSTGRES_DB: "test"
+          POSTGRES_USER: "test"
+          POSTGRES_PASSWORD: "test"
     steps:
       - checkout
       - docker/install-docker
       - docker/install-dockerize
-      - run: dockerize -wait tcp://localhost:3306 -timeout 1m
+      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
       - node/install-packages:
           pkg-manager: yarn
       - run:

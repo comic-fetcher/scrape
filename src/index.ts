@@ -1,5 +1,5 @@
 import { fetchComicReleases as comicwalker } from "./comicwalker";
-import { sendDB } from "./db";
+import { sendDB } from "./database";
 
 (async () => {
   const comicwalkerReleases = await comicwalker();

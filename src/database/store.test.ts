@@ -1,8 +1,9 @@
 import { createConnection, getConnection } from "typeorm";
 
 import { comicFactory } from "../comicwalker/factories/comic.factory";
-import { storeComics } from "../db";
 import entities, { Comic } from "../typeorm/entities";
+
+import { storeComics } from "./store";
 
 describe("データベースでの実際の挙動の確認", () => {
   beforeAll(async () => {

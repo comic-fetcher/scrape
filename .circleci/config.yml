@@ -31,9 +31,23 @@ jobs:
       - run: dockerize -wait tcp://localhost:3306 -timeout 1m
       - node/install-packages:
           pkg-manager: yarn
-      - run: yarn test
+      - run:
+          command: |
+            yarn jest
+              --ci --runInBand
+              --collectCoverage --coverageDirectory=$JEST_COVERAGE_DIR
+              --reporters=default --reporters=jest-junit
+              --testResultsProcessor=jest-junit
+          environment:
+            JEST_COVERAGE_DIR: reports/coverage/jest
+            JEST_JUNIT_OUTPUT_DIR: reports/junit
+            JEST_JUNIT_OUTPUT_NAME: jest.xml
+      - store_test_results:
+          path: reports/junit
+      - store_artifacts:
+          path: reports/coverage
       - codecov/upload:
-          file: ./coverage/lcov.info
+          file: reports/coverage/jest/lcov.info
   lint:
     executor:
       name: node/default
@@ -43,9 +57,9 @@ jobs:
       - node/install-packages:
           pkg-manager: yarn
       - run: yarn lint:prettier
-      - run: yarn lint:eslint --format junit --output-file ./reports/eslint.xml
+      - run: yarn lint:eslint --format junit --output-file ./reports/junit/eslint.xml
       - store_test_results:
-          path: ./reports
+          path: reports/junit
 
 workflows:
   version: 2

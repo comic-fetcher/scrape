@@ -21,12 +21,8 @@ describe("データベースでの実際の挙動の確認", () => {
   });
   afterEach(async () => {
     const connection = getConnection("test");
-    // eslint-disable-next-line no-restricted-syntax
-    for (const entity of connection.entityMetadatas) {
-      const repository = connection.getRepository(entity.name);
-      // eslint-disable-next-line no-await-in-loop
-      await repository.query(`DELETE FROM comic`);
-    }
+    await connection.dropDatabase();
+    await connection.synchronize();
   });
   afterAll(async () => {
     await getConnection("test").close();

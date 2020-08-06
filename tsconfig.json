@@ -8,7 +8,8 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
-  },
-  "exclude": ["node_modules", "**/node_modules/*"]
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "outDir": "./dist"
+  }
 }

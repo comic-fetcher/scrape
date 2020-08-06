@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "start": "ts-node src/index.ts",
+    "prebuild": "rimraf dist",
+    "build": "tsc --build tsconfig.build.json",
     "test": "env-cmd -f .env.test jest",
     "test:cov": "yarn test --collectCoverage --coverageDirectory=reports/coverage/jest",
     "lint": "run-s -cn lint:*",

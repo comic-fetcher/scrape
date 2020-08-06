@@ -2,8 +2,7 @@ import "reflect-metadata";
 import { Connection, createConnection, InsertQueryBuilder } from "typeorm";
 
 import { extractComics, extractReleases } from "./database/extract";
-import { Comic } from "./typeorm/entities/comic";
-import { Release } from "./typeorm/entities/release";
+import entities, { Comic, Release } from "./typeorm/entities";
 import { ComicReleaseData } from "./types";
 
 export async function storeComics(
@@ -36,7 +35,17 @@ export async function storeReleases(
 }
 
 export async function sendDB(data: ComicReleaseData[]): Promise<void> {
-  const connection = await createConnection();
+  const connection = await createConnection({
+    type: "mysql",
+    host: process.env.DB_HOST,
+    port: parseInt(process.env.DB_PORT, 10),
+    database: process.env.DB_DATABASE,
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    synchronize: true,
+    logging: false,
+    entities,
+  });
 
   const comics = extractComics(data);
   const releases = extractReleases(data);

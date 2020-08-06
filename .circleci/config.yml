@@ -57,6 +57,17 @@ jobs:
       - run: yarn lint:eslint --format junit --output-file ./reports/junit/eslint.xml
       - store_test_results:
           path: reports/junit
+  build:
+    executor:
+      name: node/default
+      tag: "12.18"
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run: yarn build
+      - store_test_results:
+          path: dist
 
 workflows:
   version: 2
@@ -64,3 +75,4 @@ workflows:
     jobs:
       - test
       - lint
+      - build

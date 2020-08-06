@@ -1,3 +1,5 @@
+# Comicfetcher.scrape
+
 ## Housekeeping
 
 [![CircleCI](https://circleci.com/gh/comic-fetcher/scrape.svg?style=svg)](https://circleci.com/gh/comic-fetcher/scrape)
@@ -5,23 +7,48 @@
 
 ## Setup
 
-### Snapshot
-
-```bash
-curl https://comic-walker.com/contents/calendar/ > src/comicwalker/snapshot/calendar.html
-```
-
 ### Environment Variables
 
-See `.env.example`. All envirnment variables for TypeORM must be prefixed `CF_`
+See `.env.example`
 
-```env
-CF_TYPEORM_CONNECTION="mysql"
-CF_TYPEORM_HOST="localhost"
-CF_TYPEORM_PORT=3306
-CF_TYPEORM_USERNAME="test"
-CF_TYPEORM_PASSWORD="test"
-CF_TYPEORM_DATABASE="db"
+```dotenv
+DB_HOST = "localhost"
+DB_PORT = 3306
+DB_DATABASE = "cf"
+DB_USER = "test"
+DB_PASSWORD = "test"
 ```
 
-https://typeorm.io/#/using-ormconfig/which-configuration-file-is-used-by-typeorm
+### Local DB
+
+_Requirements_: make, [docker-compose](https://docs.docker.com/compose/install/)
+
+#### for local development
+
+MySQL 5.7 & phpmyadmin
+
+```
+make up-local-db
+
+make down-local-db
+```
+
+#### for test
+
+MySQL 5.7 only
+
+```
+make up-test-db
+
+make down-test-db
+```
+
+### CircleCI local check
+
+_Requirements_: [CircleCI Local CLI](https://circleci.com/docs/2.0/local-cli/#installation)
+
+```
+circleci local execute --job test
+
+circleci local execute --job lint
+```

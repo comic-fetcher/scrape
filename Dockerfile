@@ -1,14 +1,19 @@
-FROM node:12
+FROM node:12 AS build
 
-ENV NODE_ENV production
+WORKDIR /projects
 
-COPY package.json package.json
-COPY yarn.lock yarn.lock
-
-COPY src src
-COPY tsconfig.json tsconfig.json
-COPY ormconfig.json ormconfig.json
+ADD package.json yarn.lock ./
+ADD tsconfig.json tsconfig.build.json ./
+ADD src ./
 
 RUN yarn install --frozen-lockfile
-# RUN yarn build
-CMD ["yarn", "start"]
+RUN yarn build
+
+FROM node:lts
+
+ENV NODE_ENV  =production
+
+COPY --from=build /projects/dist ./dist
+RUN yarn install --frozen-lockfile --production
+
+CMD ["node", "./dist/index.js"]

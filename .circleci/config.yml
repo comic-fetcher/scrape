@@ -76,3 +76,5 @@ workflows:
       - test
       - lint
       - build
+      - docker/hadolint:
+          dockerfiles: Dockerfile

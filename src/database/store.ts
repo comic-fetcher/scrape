@@ -10,10 +10,7 @@ export async function storeComics(
     .createQueryBuilder()
     .insert()
     .into(Comic)
-    .orUpdate({
-      conflict_target: ["id"],
-      overwrite: ["title", "link", "platform"],
-    })
+    .orIgnore(true)
     .values(comics)
     .execute();
 }

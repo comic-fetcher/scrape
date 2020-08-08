@@ -24,8 +24,10 @@ export function getConnection(): Promise<Connection> {
 export async function sendDB(data: ComicReleaseData[]): Promise<void> {
   const connection = await getConnection();
   try {
-    await storeComics(connection, extractComics(data));
-    await storeReleases(connection, extractReleases(data));
+    const comics = extractComics(data);
+    const releases = extractReleases(data);
+    await storeComics(connection, comics);
+    await storeReleases(connection, releases);
   } finally {
     await connection.close();
   }

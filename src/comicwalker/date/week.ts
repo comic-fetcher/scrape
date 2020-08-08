@@ -1,4 +1,6 @@
-export function getDayFromJapaneseKanji(ja: string) {
+export function getDayFromJapaneseKanji(
+  ja: string,
+): 0 | 1 | 2 | 3 | 4 | 5 | 6 | null {
   switch (ja) {
     case "日":
       return 0;

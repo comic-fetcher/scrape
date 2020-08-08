@@ -1,7 +1,7 @@
 import * as dateMock from "jest-date-mock";
 import { enableFetchMocks } from "jest-fetch-mock";
 
-import mockSnapshot from "./__snapshots__/calendar.html.js";
+import mockSnapshot from "./__snapshots__/calendar.html";
 
 import {
   combineRawData,

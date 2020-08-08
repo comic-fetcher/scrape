@@ -23,6 +23,6 @@ export class Comic {
   })
   platform!: ComicPlatform;
 
-  @OneToMany((type) => Release, (release) => release.comic)
+  @OneToMany(() => Release, (release) => release.comic)
   releases!: Release[];
 }

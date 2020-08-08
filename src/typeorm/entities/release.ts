@@ -1,10 +1,4 @@
-import {
-  Entity,
-  ManyToOne,
-  PrimaryGeneratedColumn,
-  Column,
-  PrimaryColumn,
-} from "typeorm";
+import { Column, Entity, ManyToOne, PrimaryColumn } from "typeorm";
 
 import { Comic } from "./comic";
 
@@ -13,7 +7,7 @@ export class Release {
   @PrimaryColumn()
   id!: string;
 
-  @ManyToOne((type) => Comic, (comic) => comic.releases)
+  @ManyToOne(() => Comic, (comic) => comic.releases)
   comic!: Comic;
 
   @Column("date")

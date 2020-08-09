@@ -10,11 +10,7 @@ import { storeComics, storeReleases } from "./store";
 export function getConnection(): Promise<Connection> {
   return createConnection({
     type: "postgres",
-    host: process.env.DB_HOST,
-    port: parseInt(process.env.DB_PORT, 10),
-    database: process.env.DB_DATABASE,
-    username: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
+    url: process.env.DB_URL,
     synchronize: true,
     logging: false,
     entities,

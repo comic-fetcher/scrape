@@ -21,7 +21,7 @@
     "fmt:prettier": "yarn lint:prettier --write"
   },
   "dependencies": {
-    "date-fns": "2.15.0",
+    "date-fns": "2.16.1",
     "jsdom": "16.4.0",
     "lodash": "4.17.20",
     "node-fetch": "2.6.0",
